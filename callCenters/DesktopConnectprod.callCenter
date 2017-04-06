@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <adapterUrl>https://HAWP8CTIA01.RESOURCES.GLOBAL.LOCAL:8448/dc4crm/index_sf.html</adapterUrl>
+    <customSettings>{&quot;reqSoftphoneHeight&quot;:&quot;300&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;200&quot;}</customSettings>
+    <displayName>Desktop Connect 1.4.2 Prod</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>InternalNameAAA</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>https://HAWP8CTIA01.RESOURCES.GLOBAL.LOCAL:8448/dc4crm/index_sf.html</value>
+        </items>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>300</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>200</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Outside Prefix</label>
+            <name>reqOutsidePrefix</name>
+            <value>9</value>
+        </items>
+        <items>
+            <label>International Prefix</label>
+            <name>reqInternationalPrefix</name>
+            <value>00</value>
+        </items>
+        <items>
+            <label>Long Distance Prefix</label>
+            <name>reqLongdistancePrefix</name>
+            <value>1</value>
+        </items>
+        <items>
+            <label>Internal Phone Length</label>
+            <name>reqInternalPhoneLength</name>
+            <value>7;6;5;4</value>
+        </items>
+        <items>
+            <label>Country Code</label>
+            <name>reqCountryCode</name>
+            <value>US</value>
+        </items>
+        <items>
+            <label>Lookup Format</label>
+            <name>reqLookupFormat</name>
+            <value>NATIONAL</value>
+        </items>
+        <items>
+            <label>C2D enabled</label>
+            <name>reqClickToDialEnabled</name>
+            <value>true</value>
+        </items>
+        <label>Dialing Options</label>
+        <name>reqDialingOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>AUX Code 1</label>
+            <name>optCode1</name>
+            <value>NP Paid Breaks</value>
+        </items>
+        <items>
+            <label>AUX Code 2</label>
+            <name>optCode2</name>
+            <value>NP Coaching QA</value>
+        </items>
+        <items>
+            <label>AUX Code 3</label>
+            <name>optCode3</name>
+            <value>NP TeamFcsMtng OFT</value>
+        </items>
+        <items>
+            <label>AUX Code 4</label>
+            <name>optCode4</name>
+            <value>ProdNonBillOfflnSpt</value>
+        </items>
+        <items>
+            <label>AUX Code 5</label>
+            <name>optCode5</name>
+            <value>TM Hrs Leadagents</value>
+        </items>
+        <items>
+            <label>AUX Code 6</label>
+            <name>optCode6</name>
+            <value>BillableFloorTrng</value>
+        </items>
+        <items>
+            <label>AUX Code 7</label>
+            <name>optCode7</name>
+            <value>ProdManual OB</value>
+        </items>
+        <items>
+            <label>AUX Code 8</label>
+            <name>optCode8</name>
+            <value>ProdBillOfflnspt</value>
+        </items>
+        <items>
+            <label>AUX Code 9</label>
+            <name>optCode9</name>
+            <value>ProdBillOfflnSpt1</value>
+        </items>
+        <items>
+            <label>AUX Code 0</label>
+            <name>optCode0</name>
+            <value>NP Default</value>
+        </items>
+        <label>Aux code Labels</label>
+        <name>optAuxCodes</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Log Outbound Calls</label>
+            <name>reqOutboundEnabled</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Log Inbound Calls</label>
+            <name>reqInboundEnabled</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Log Internal Calls</label>
+            <name>reqInternalEnabled</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Outbound Outcome Codes</label>
+            <name>reqOutboundCWC</name>
+            <value>Open;Assigned;Escalated;Pending;Closed-Resolved;Closed-Unresolved;Language Email;Pending-New email</value>
+        </items>
+        <items>
+            <label>Inbound Outcome Codes</label>
+            <name>reqInboundCWC</name>
+            <value>Open;Assigned;Escalated;Pending;Closed-Resolved;Closed-Unresolved;Language Email;Pending-New email</value>
+        </items>
+        <label>Call Log Options</label>
+        <name>reqCallLogOptions</name>
+    </sections>
+    <sections>
+        <items>
+            <label>UCID</label>
+            <name>reqFieldForucid</name>
+            <value>geoUCID__c</value>
+        </items>
+        <items>
+            <label>Call ID</label>
+            <name>reqFieldForcallid</name>
+            <value>geoCallID__c</value>
+        </items>
+        <items>
+            <label>UUI</label>
+            <name>reqFieldForuui</name>
+            <value>geoUUI__c</value>
+        </items>
+        <items>
+            <label>Called</label>
+            <name>reqFieldForcalled</name>
+            <value>geoCalled__c</value>
+        </items>
+        <items>
+            <label>Calling</label>
+            <name>reqFieldForcalling</name>
+            <value>geoCalling__c</value>
+        </items>
+        <items>
+            <label>Remote number</label>
+            <name>reqFieldForremotenumber</name>
+            <value>geoRemoteNumber__c</value>
+        </items>
+        <items>
+            <label>Dist. VDN name</label>
+            <name>reqFieldForvdn</name>
+            <value>geoDistName__c</value>
+        </items>
+        <items>
+            <label>Dist. VDN extension</label>
+            <name>reqFieldFordistaddr</name>
+            <value>geoDistNum__c</value>
+        </items>
+        <items>
+            <label>Delivering device extension</label>
+            <name>reqFieldFordelivacd</name>
+            <value>geoDelivNum__c</value>
+        </items>
+        <items>
+            <label>Delivering device name</label>
+            <name>reqFieldFordelivering</name>
+            <value>geoDelivName__c</value>
+        </items>
+        <items>
+            <label>Last redir. device</label>
+            <name>reqFieldForlastredir</name>
+            <value>geoLastRedirNum__c</value>
+        </items>
+        <items>
+            <label>Collected digits</label>
+            <name>reqFieldFordigits</name>
+            <value>geoDigits__c</value>
+        </items>
+        <items>
+            <label>Collecting device name</label>
+            <name>reqFieldForcollectvdn</name>
+            <value>geoCollectName__c</value>
+        </items>
+        <items>
+            <label>Started</label>
+            <name>reqFieldForstarted</name>
+            <value>geoCallStarted__c</value>
+        </items>
+        <items>
+            <label>Ended</label>
+            <name>reqFieldForended</name>
+            <value>geoCallEnded__c</value>
+        </items>
+        <label>Call Log Custom Fields</label>
+        <name>reqCustomLogOptions</name>
+    </sections>
+</CallCenter>
