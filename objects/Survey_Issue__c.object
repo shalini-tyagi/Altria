@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>AnswerText__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Answer__r.Answer__c</formula>
+        <label>AnswerText</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Answer_ID__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Answer__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Answer ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Answer_Sequence__c</fullName>
+        <externalId>false</externalId>
+        <label>Answer Sequence</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Answer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Answer</label>
+        <referenceTo>Answer__c</referenceTo>
+        <relationshipLabel>Survey Issues</relationshipLabel>
+        <relationshipName>Survey_Issues</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Comment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Issue_Id__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Survey__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Issue Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Issue__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Issue</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Survey Issues</relationshipLabel>
+        <relationshipName>Survey_Issues</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PM_Question_ID__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <externalId>false</externalId>
+        <formula>Question__r.PMQuestionID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PM Question ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quest_Multi_Answers__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Question__r.MultiAnswers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Quest Multi Answers</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>QuestionText__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Question__r.Question__c</formula>
+        <label>QuestionText</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Question_ID__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Question__r.Name</formula>
+        <label>Question ID</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Question_Sequence__c</fullName>
+        <externalId>false</externalId>
+        <label>Question Sequence</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Question</label>
+        <referenceTo>Question__c</referenceTo>
+        <relationshipLabel>Survey Issues</relationshipLabel>
+        <relationshipName>Survey_Issues</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Survey_Name__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Survey__r.Survey_Name__c</formula>
+        <label>Survey Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Survey__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey</label>
+        <referenceTo>Survey__c</referenceTo>
+        <relationshipLabel>Survey Issues</relationshipLabel>
+        <relationshipName>Survey_Issues</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Transacation_Id__c</fullName>
+        <description>It is only for Issue_Survey_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Transaction__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Transacation Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Transaction__c</fullName>
+        <externalId>false</externalId>
+        <label>Transaction Management</label>
+        <referenceTo>Transaction_Management__c</referenceTo>
+        <relationshipLabel>Survey Issues</relationshipLabel>
+        <relationshipName>Survey_Issues</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>isActive__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>isActive</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>isReviewed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used for checking if the record is ready to send in feed.</description>
+        <externalId>false</externalId>
+        <label>isReviewed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Survey Issue</label>
+    <nameField>
+        <displayFormat>{0000}</displayFormat>
+        <label>Survey Issue Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Survey Issues</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

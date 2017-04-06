@@ -1,0 +1,2616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Archival_Date__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Archival Date</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_Classification__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Brand Classification</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_Code__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Brand Code</label>
+        <referenceTo>Brand__c</referenceTo>
+        <relationshipLabel>Brand Hierarchies</relationshipLabel>
+        <relationshipName>Brand_Hierarchies</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Brand_MM_Code__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Brand MM Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_Sas_Code__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Brand Sas Code</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_Status__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Brand Status</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CodeCategory__c</fullName>
+        <description>it is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>&apos;CRCBRANDHIERARCHY&apos;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CodeCategory</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CodeType__c</fullName>
+        <description>it is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>&apos;BRANDHIERARCHY&apos;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Code Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Code__c</fullName>
+        <description>it is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Brand_Code__r.Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatedDate__c</fullName>
+        <description>Feed Outbound - DateFormat.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>MID( TEXT(CreatedDate) , 6, 2)+&quot;-&quot;+MID( TEXT(CreatedDate) , 9, 2)+&quot;-&quot;+MID( TEXT(CreatedDate) , 0, 4) + &quot; &quot;+MID(TEXT(CreatedDate), 11, 9)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CreatedDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cut__c</fullName>
+        <externalId>false</externalId>
+        <label>Cut</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Extra Long</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fine</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fine Cut</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Long</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Long Cut</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Neat</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>None</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NULL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pink</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ready</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>White</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Filter__c</fullName>
+        <externalId>false</externalId>
+        <label>Filter</label>
+        <picklist>
+            <picklistValues>
+                <fullName>2A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>500mA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>500mA - EU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>500mA - NZ</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>500mA - UK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Filtered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Filter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Flavormax</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>GSAW-001</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LED Green</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LED Green - UK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LED Red</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>LED Red - UK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Multifilter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>None</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Non-Filtered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NULL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Plastic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>US to EU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vapors</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wood</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Flavor__c</fullName>
+        <externalId>false</externalId>
+        <label>Flavor</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Absolute Tobacco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Amber</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apple</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Berry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blend No. 27</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blue Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bold Classic 4.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bold Menthol 4.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bold Original 4.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bold Wintergreen</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cherry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Citrus</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Classic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Classic 2.4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Classic 2.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cool Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cool Mint Tobacco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Crisp</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Crisp Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Crisp Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dark</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dark Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fusion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Fusion 2.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Harvest Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Key</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Menthol</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Menthol 2.4</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Menthol 2.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Menthol Fusion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Menthol Ice</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Menthol Smooth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mocha Mist</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mountain Clove</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Natural</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Original</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Original Tobacco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Peach</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Peppermint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Red Label</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Regular</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Regular To Menthol</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rich</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rich Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rich Tobacco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Robust</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Select Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Smooth Chocolate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Smooth Cream</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Smooth Hickory</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Smooth Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Smooth Mint Tobacco</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Southern Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Spearmint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Special Blend Regular</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Straight</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Strong</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Summer Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sweet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tobacco Gold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Va Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vanilla</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vanilla Dreams</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Variety</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vineyard Blend 2.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>WeymanS Best</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Whiskey Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wintergreen</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Winter Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Winter Mint 2.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Winter Mint 3.5</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X-Tra Crisp Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X-Tra Mint</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X-tra Mint Chill</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X-Tra Rich Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>X-Tra Wintergreen Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>LastModifiedDate__c</fullName>
+        <description>Feed Outbound - DateFormat.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>MID( TEXT(LastModifiedDate) , 6, 2)+&quot;-&quot;+MID( TEXT(LastModifiedDate) , 9, 2)+&quot;-&quot;+MID( TEXT(LastModifiedDate) , 0, 4) + &quot; &quot;+MID(TEXT(LastModifiedDate), 11, 9)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LastModifiedDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Length__c</fullName>
+        <externalId>false</externalId>
+        <label>Length</label>
+        <picklist>
+            <picklistValues>
+                <fullName>100s</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>120s</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>72mm</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>83mm</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cube</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Disposable</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Flat Wire</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>King Size</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Long</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Long Size</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mini</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NULL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other Size</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Plastic</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Plug Adapter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Short</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Soft</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Stainless Steel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>STANDARD</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TANK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>White</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>XL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>XL LONG</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>License_Group__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>License Group</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pack_Type__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Pack Type</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Packaging__c</fullName>
+        <externalId>false</externalId>
+        <label>Packaging</label>
+        <picklist>
+            <picklistValues>
+                <fullName>10-2-Pack Upright Promo 201002</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 Ct  Tray-5-Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10ct Tray-5-Packpromo201001</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 Ct Tray-5-Packpromo201001</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>25 -Count Upright</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>25 -Ct  Upright</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>25s Hard Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2-Pack Promo 201002</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>50 -Count Club</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5-Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5-Pack Promo 201001</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>6 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>7 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cannister 6 Oz</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case-2 Pack Promo 201002</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case-5 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case-5 Pack Promo 201001</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case-Singles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack 25s</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack Blue</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack Carton</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack Case</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack Green</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack Purse</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other Packing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pouch 0.75 Oz</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Princess Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rounded Corner Box</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Soft Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tray 6 Pouch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wholesale Starter Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wholesale Pro Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Starter Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Express Starter Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tube</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Thrift Tumbler</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Thrift Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slim Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles Tube</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles Revenue</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles B1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles .99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles .89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles .79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles $0.89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles $0.79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles $0.69</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Singles $0.25 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Test Market Al</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Promo 2.25</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Of Slim Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Of Slim Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Of Pocket Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Of Cans Promo 1.90</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Of Cans Lead Market</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Of Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll Lead Market</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Roll</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Replacement</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rechargeable Kit - Clamshell packaging</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rechargeable Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Quick Start Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pouch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pocket Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Paper Can / Tin Lid</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>N/A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kit Accessory Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Intro Kit Blister</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Intro Kit - EU</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack Case - .50 Off</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack Carton - .50 Off</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hard Pack - .50 Off</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green Smoke Starter Kit (NZ)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green Smoke Starter Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Giant Tumbler</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Foil Pack Sample 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Foil Pack 6</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EU Starter Kit Accessory Kit UK</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EU Starter Kit (Accessory Kit)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>EU Express Starter Kit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of Singles Revenue</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of Singles $0.79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of Singles $0.69</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of Singles $0.25 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of Singles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of 30- Count</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of $0.89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Of $0.79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Carton 25 .99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Carton 25 .89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Carton 25 .79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Carton 25</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Carton 100 .89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Display Carton 100 .79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Club Display Of Singles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Test Market Al</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case of Tubes Vertical</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case of Tubes Horizontal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Tubes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Thrift Tumblers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Thrift Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Slim Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles Revenue</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles Club</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles 30 Count Display</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles .99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles .89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles .79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles $0.89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles $0.79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles $0.69</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles $0.25 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Singles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Rolls</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Pouches</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Pocket Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Medium Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Hard Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Giant Tumblers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Cans Promotion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Cans Promo 2.25</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Cans Promo 1.90</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Cans Lead Market</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Cans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of Box</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 7-Pack &amp; 25 Cnt Uprght</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 7 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 7 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 60 - Count Club</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case of 5-Pack Promo 201201</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case of 50 Count Displays</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 50 -Count Club</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 Pack Sniped</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 Pack Incentive Offer 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 Pack Incentive Offer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 Pack B4G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 Pack $0.50 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 Pack - O</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 - Pack Foil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 5 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 300 7 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 3 Pack B2G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 3 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 3 - Pack Foil B2G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 25 -Count Upright</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 Pack 1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil Promo 99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil Promo 1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil Promo $2.29</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil Promo $1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil Promo  $1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil CGR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil B2G $0.50 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil - $1.39</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil - $0.99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 2 - Pack Foil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 100 CT Singles .89</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 100 CT Singles .79</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Of 1 1/2 Oz Packet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case Lead Market</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Case</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Vertical</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of Pouches</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of Hard Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of Box</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 7-Pack &amp; 25 Cnt Uprt</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 7 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 5 Pack B4G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 5 - Pack Sniped</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 5 - Pack Foil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 5 - Pack B4G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 5 - Pack $0.50 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 5 - Pack - O</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 5 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 3 - Pack Foil B2G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 3 - Pack B2G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 3 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil Promo 99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil Promo 1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil Promo $2.29</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil Promo $1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil Promo  $1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil CGR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil B2G $0.50 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil- $1.39</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil- $0.99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack Foil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack 1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 2 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Of 1 1/2 Oz Packet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Horizontal New</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton Horizontal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Carton</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can Test Market Al</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can Promo 2.25</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can Promo 1.90</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can Lead Market (Plus asterisk)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can Lead Market</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (UPC)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO-01)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO 1.69)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO 1.69 Per Can)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO 1.25)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO 1.00)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO 0.75 Off)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO 0.50)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PROMO .50)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (PR)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (MILITARY)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (Duty Free USA)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can (AK &amp; HI)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Box</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blister Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>9 Oz Bag</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>7 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>7 Oz Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>7 - Pack Promo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>60 - Count Club</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>50 -Count Display</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 Pack B4G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 Pack - O</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 Oz Bag</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 - Pack Sniped</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 - Pack Foil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 - Pack B4G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 - Pack $0.50 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3-Pack Box</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3-Pack Blister</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>30 -Count Display</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 For Price of 2 - Pack Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 - Pack Foil B2G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 - Pack B2G1F</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>3 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>25 -Count Upright Singles</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 Pack 1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil Promo 99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil Promo 1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil Promo $2.29</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil Promo $1.49</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil CGR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil B2G $0.50 OFF</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil- $1.39</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil- $0.99</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 - Pack Foil</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>14 Oz Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>12 Oz Can</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 Ct Tray Of 7 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 Ct Display Of 7 - Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1 3/8 Oz Packet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1 1/2 Oz Packet</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5-Pack Promo 201201</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>PaperType__c</fullName>
+        <externalId>false</externalId>
+        <label>PaperType</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Banded Paper Ny</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Non Banded Paper</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rolling</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Banded Paper</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NULL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - Black  Nashville</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Standard</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - Absolute Tobacco  Cooperstown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - Menthol Ice  New Orleans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - Red Label  El Paso</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - Tobacco Gold  Chicago</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer Battery Long Green LED - I Love Green Smoke  Springfield</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer Battery Long Green LED - Mocha Mist  Seattle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer Battery Long Green LED - Smooth Chocolate  Manhattan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer Battery Long Green LED - Vanilla Dreams  Charleston</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Intro</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green  LED ABS Tobacco  Cooperstown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green  LED Mocha Mist  Seattle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green LED I Love Green Smoke  Springfield</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green LED Menthol Ice  New Orleans</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green LED Red Label  El Paso</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green LED Smooth Chocolate  Manhattan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green LED Tobacco Gold  Chicago</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>UK Designer Battery Long Green LED Vanilla Dreams  Charleston</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer  - Smooth Chocolate  Manhattan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - I Love Green Smoke  Springfield</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - Mocha Mist  Seattle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Designer - Vanilla Dreams  Charleston</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Metal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Leather</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sparkle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rubber</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Pick_Up_Policy_Weeks__c</fullName>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Pick Up Policy Weeks</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pm_Brand_Code__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Pm Brand Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price_Category__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Price Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ProductLine_Code__c</fullName>
+        <description>it is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>Product_Line_Code__r.Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Line Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Desc__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Product Desc</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product_Line_Code__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Product Line Code</label>
+        <referenceTo>Product_Line__c</referenceTo>
+        <relationshipLabel>Brand Hierarchies</relationshipLabel>
+        <relationshipName>Brand_Hierarchies</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Reporting_Brand_Family__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Reporting Brand Family</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Short_Cut__c</fullName>
+        <description>It is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Short Cut</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>String_Data__c</fullName>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>String Data</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Taste__c</fullName>
+        <externalId>false</externalId>
+        <label>Taste</label>
+        <picklist>
+            <picklistValues>
+                <fullName>0</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0.006</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0.012</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0.018</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>0.024</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2A</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>4-Port</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>500mA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AZ</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Black Special Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blend No. 27</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blend No. 32</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blend No. 54</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Blue Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bronze Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bronze Pack Blend No. 27</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chewable Dissolvables</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chews</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Constant Power</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Deluxe</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Disposable</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>E-COMMERCE</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Edge</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Full Flavor</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gold Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gold Pack 25s</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ice</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>IN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lights</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lowest/Superlights/Ultima</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Luxury</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Melts</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Midnight</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Milds</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Multifilter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Multiufilter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NAT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>None</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NXT</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Red Label</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Red Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reserve</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rich Blue</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Select</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Silver Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Skyline</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Slate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Smooth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Southern Cut</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Special Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Special Blend Black Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Special Blend Gold Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Special Blend Red Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Special Blend Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Superslims</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Superslims Gold Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Superslims Lights</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Superslims Uknown Taste</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Superslims Unknown Taste</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turkish Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Turkish Night</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ultra Lights</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Undetermined</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Va Blend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>White Pack</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TenantId__c</fullName>
+        <description>it is only for Brand_Hierarchy_Outbound feed.</description>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <formula>&apos;ALORICAALTRIA&apos;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TenantId</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>UPC__c</fullName>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>UPC</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Units_Per_Pack__c</fullName>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Units Per Pack</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ust_Date_Type__c</fullName>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Ust Date Type</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vantive_Id__c</fullName>
+        <encrypted>false</encrypted>
+        <externalId>false</externalId>
+        <label>Vantive Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Brand Hierarchy</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Product_Line_Code__c</columns>
+        <columns>Brand_Code__c</columns>
+        <columns>Cut__c</columns>
+        <columns>Filter__c</columns>
+        <columns>Taste__c</columns>
+        <columns>Flavor__c</columns>
+        <columns>UPC__c</columns>
+        <columns>Packaging__c</columns>
+        <columns>Pack_Type__c</columns>
+        <columns>PaperType__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>BH{0000}</displayFormat>
+        <label>Brand Hierarchy Code</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Brand Hierarchies</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields xsi:nil="true"/>
+        <customTabListAdditionalFields>Product_Line_Code__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields xsi:nil="true"/>
+        <lookupDialogsAdditionalFields>Product_Line_Code__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields xsi:nil="true"/>
+        <lookupPhoneDialogsAdditionalFields>Product_Line_Code__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields xsi:nil="true"/>
+        <searchFilterFields>Product_Line_Code__c</searchFilterFields>
+        <searchResultsAdditionalFields xsi:nil="true"/>
+        <searchResultsAdditionalFields>Product_Line_Code__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

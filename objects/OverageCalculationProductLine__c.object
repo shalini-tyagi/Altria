@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>To save the product lines when over age calculation needs to be done.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>OverageCalculationProductLine</label>
+    <visibility>Public</visibility>
+</CustomObject>
