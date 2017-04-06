@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ContactChannel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContactChannel</shortDescription>
+        <value>Telephone</value>
+    </labels>
+    <labels>
+        <fullName>Country</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Country</shortDescription>
+        <value>United States</value>
+    </labels>
+    <labels>
+        <fullName>CustomerType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Type</shortDescription>
+        <value>CONSUMER</value>
+    </labels>
+    <labels>
+        <fullName>Field_Sales_Force</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Field Sales force Type</shortDescription>
+        <value>Field Sales Force</value>
+    </labels>
+    <labels>
+        <fullName>RepeatComplainerMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RepeatComplainerMessage</shortDescription>
+        <value>This caller has been flagged as a repeat complainer. Please take into account the corresponding reimbursement restrictions before offering a reimbursement.</value>
+    </labels>
+    <labels>
+        <fullName>Retailer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Retailer</shortDescription>
+        <value>Retailer</value>
+    </labels>
+    <labels>
+        <fullName>Wholesaler</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Wholesaler</shortDescription>
+        <value>Wholesaler</value>
+    </labels>
+</CustomLabels>
