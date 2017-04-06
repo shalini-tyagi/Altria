@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Configurations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnswerText --></label>
+        <name>AnswerText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer Sequence --></label>
+        <name>Answer_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>Answer__c</name>
+        <relationshipLabel><!-- Survey Configurations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CommentRequired --></label>
+        <name>CommentRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Question --></label>
+        <name>End_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- QuestionFromText --></label>
+        <name>QuestionFromText__c</name>
+    </fields>
+    <fields>
+        <label><!-- QuestionFrom --></label>
+        <name>QuestionFrom__c</name>
+        <relationshipLabel><!-- Survey Configurations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QuestionTo --></label>
+        <name>QuestionTo__c</name>
+        <relationshipLabel><!-- Survey Configurations (QuestionTo) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Question Required --></label>
+        <name>Question_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Sequence --></label>
+        <name>Question_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Starting Question --></label>
+        <name>Starting_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- Survey Configurations --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

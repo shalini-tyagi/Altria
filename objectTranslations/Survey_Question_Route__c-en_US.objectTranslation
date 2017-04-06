@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Question Route</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Questions Route</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnsSequence --></label>
+        <name>AnsSequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnswerID --></label>
+        <name>AnswerID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>Answer__c</name>
+        <relationshipLabel><!-- Survey Questions Route --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CommentRequiredText --></label>
+        <name>CommentRequiredText__c</name>
+    </fields>
+    <fields>
+        <label><!-- CommentRequired --></label>
+        <name>CommentRequired__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Question --></label>
+        <name>End_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- MultiAnswers --></label>
+        <name>MultiAnswers__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMQuestionID --></label>
+        <name>PMQuestionID__c</name>
+    </fields>
+    <fields>
+        <label><!-- QuestionID --></label>
+        <name>QuestionID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question From --></label>
+        <name>Question_From__c</name>
+        <relationshipLabel><!-- Survey Questions Route --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Question_Required --></label>
+        <name>Question_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Sequence --></label>
+        <name>Question_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question To Go To Text --></label>
+        <name>Question_To_Go_To_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question To Go To --></label>
+        <name>Question_To_Go_To__c</name>
+        <relationshipLabel><!-- Survey Questions Route (Question To Go To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Question_To_Go_To__c --></label>
+        <name>Question_To_Go_To_c__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey ID --></label>
+        <name>SurveyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Name --></label>
+        <name>SurveyName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- Survey Questions Route --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+<apex:page standardController="Correspondence__c">
+ <apex:includeScript value="/support/console/37.0/integration.js" /> 
+    <apex:sectionHeader title="Correspondence Detail" subtitle="{!Correspondence__c.Name}" />
+    <apex:form >
+         <script>        
+            function SetTabTitleCorrespondence() {
+                sforce.console.getEnclosingTabId(function(result) {
+                   sforce.console.setTabTitle('Correspondence-'+'{!Correspondence__c.Name}', result.id);
+                   sforce.console.setTabLink();
+                   
+                });
+            }
+            
+            var pageLoad = window.onload;
+            window.onload = function() {
+                if (pageLoad) {
+                        pageLoad();
+                }
+                SetTabTitleCorrespondence();
+            }   
+        </script>   
+        <apex:pageBlock mode="detail">
+            <apex:pageBlockButtons id="btn">
+                <apex:commandButton value="Edit" action="{!edit}"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:outputField value="{!Correspondence__c.LetterDesc__c}"/>
+                <apex:outputField value="{!Correspondence__c.LetterDate__c}"/>
+                <apex:outputField value="{!Correspondence__c.BrandDesc__c}" rendered="{!if(Correspondence__c.BrandDesc__c == '', false, true)}"/>
+                <apex:outputField value="{!Correspondence__c.MasterId__c}" rendered="{!if(Correspondence__c.MasterId__c == '', false, true)}"/>
+                <apex:outputText value="" rendered="{!if(Correspondence__c.MasterId__c == '', true, false)}"/>
+                <apex:outputField value="{!Correspondence__c.Comments__c}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

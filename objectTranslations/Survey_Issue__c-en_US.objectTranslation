@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Survey Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Survey Issues</value>
+    </caseValues>
+    <fields>
+        <label><!-- AnswerText --></label>
+        <name>AnswerText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer ID --></label>
+        <name>Answer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer Sequence --></label>
+        <name>Answer_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>Answer__c</name>
+        <relationshipLabel><!-- Survey Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Id --></label>
+        <name>Issue_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue --></label>
+        <name>Issue__c</name>
+        <relationshipLabel><!-- Survey Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PM Question ID --></label>
+        <name>PM_Question_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quest Multi Answers --></label>
+        <name>Quest_Multi_Answers__c</name>
+    </fields>
+    <fields>
+        <label><!-- QuestionText --></label>
+        <name>QuestionText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question ID --></label>
+        <name>Question_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question Sequence --></label>
+        <name>Question_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>Question__c</name>
+        <relationshipLabel><!-- Survey Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey Name --></label>
+        <name>Survey_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- Survey Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transacation Id --></label>
+        <name>Transacation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management --></label>
+        <name>Transaction__c</name>
+        <relationshipLabel><!-- Survey Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isActive --></label>
+        <name>isActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- isReviewed --></label>
+        <name>isReviewed__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

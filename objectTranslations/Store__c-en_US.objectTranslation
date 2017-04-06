@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Store</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Stores</value>
+    </caseValues>
+    <fields>
+        <label><!-- HasValidZipCode --></label>
+        <name>HasValidZipCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue ID --></label>
+        <name>IssueID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue --></label>
+        <name>Issue__c</name>
+        <relationshipLabel><!-- Stores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Address1 --></label>
+        <name>Store_Address1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Address2 --></label>
+        <name>Store_Address2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store City --></label>
+        <name>Store_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Comments --></label>
+        <name>Store_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Name --></label>
+        <name>Store_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store State --></label>
+        <name>Store_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Type --></label>
+        <name>Store_Type_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Type --></label>
+        <name>Store_Type__c</name>
+        <relationshipLabel><!-- Stores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Store Zip4 --></label>
+        <name>Store_Zip4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Zip --></label>
+        <name>Store_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transacation ID --></label>
+        <name>TransacationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management --></label>
+        <name>Transaction_Management__c</name>
+        <relationshipLabel><!-- Stores --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isReviewed --></label>
+        <name>isReviewed__c</name>
+    </fields>
+    <layouts>
+        <layout>Store Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Store Name should not be blank. --></errorMessage>
+        <name>Store_Name_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Melissa Integration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Melissa</value>
+    </caseValues>
+    <fields>
+        <label><!-- RequestTimeOut --></label>
+        <name>RequestTimeOut__c</name>
+    </fields>
+    <fields>
+        <label><!-- USA Address End Point --></label>
+        <name>USAAddressEndPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Id --></label>
+        <name>User_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip End Point --></label>
+        <name>ZipEndPointURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- globalAddressEndPoint --></label>
+        <name>globalAddressEndPoint__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

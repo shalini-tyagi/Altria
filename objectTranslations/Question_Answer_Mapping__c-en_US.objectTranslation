@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Question Answer Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Questions Answer Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnswerText --></label>
+        <name>AnswerText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer Sequence --></label>
+        <name>Answer_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Answer --></label>
+        <name>Answer__c</name>
+        <relationshipLabel><!-- Questions Answer Mapping --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- QuestionText --></label>
+        <name>QuestionText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question --></label>
+        <name>Question__c</name>
+        <relationshipLabel><!-- Questions Answer Mapping --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

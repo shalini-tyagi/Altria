@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Operating Company</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Operating Companies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Default TFN --></label>
+        <name>Default_TFN__c</name>
+        <relationshipLabel><!-- Operating Companies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Operating Company --></label>
+        <name>OperatingCompany__c</name>
+        <picklistValues>
+            <masterLabel>CRC Direct</masterLabel>
+            <translation><!-- CRC Direct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JMC</masterLabel>
+            <translation><!-- JMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NUMRK</masterLabel>
+            <translation><!-- NUMRK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMUSA</masterLabel>
+            <translation><!-- PMUSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade</masterLabel>
+            <translation><!-- Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USST</masterLabel>
+            <translation><!-- USST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trade --></label>
+        <name>Trade__c</name>
+    </fields>
+    <layouts>
+        <layout>Operating Company Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,42 @@
+<apex:page standardController="Case" extensions="IssueReviewController" sidebar="false" tabStyle="Issue_Review__tab">    
+    <apex:includeScript value="/support/console/37.0/integration.js"/>
+    <apex:form id="frm">
+       <apex:pageBlock title="Issue Review">           
+           <apex:outputPanel rendered="{!(IssueReviewList.size <=0)}">
+               No records to display
+           </apex:outputPanel> 
+           
+           <apex:pageBlockButtons rendered="{!(IssueReviewList.size >0)}">
+               <apex:commandButton action="{!previous}"  value="Previous" rendered="{!hasPrevious && PageSize >5}"/>
+               <apex:commandButton action="{!next}" rendered="{!hasNext && PageSize >5}" value="Next"/>
+           </apex:pageBlockButtons>
+           <apex:pageBlockTable value="{!IssueReviewList}" var="ir" rendered="{!(IssueReviewList.size >0)}">
+               <apex:column headerValue="Issue No.">
+                   &nbsp;&nbsp;<apex:OutputLink value="apex/IssueReviewDetail?id={!ir.Id}">{!ir.CaseNumber}</apex:outputLink>
+               </apex:column>
+               <apex:column headerValue="Name">
+                    <apex:OutputText value="{!ir.Contact.Name}"/>
+               </apex:column>
+               <apex:column headerValue="Brand">
+                    <apex:OutputText value="{!ir.Brandcode__c}"/>
+               </apex:column>
+               <apex:column headerValue="Product Line">
+                    <apex:OutputText value="{!ir.Product_Line__c}"/>
+               </apex:column>
+               <apex:column headerValue="Classification">
+                    <apex:OutputText value="{!ir.Classificationtxt__c}"/>
+               </apex:column>
+               <apex:column headerValue="Reason">
+                    <apex:OutputText value="{!ir.Reasontxt__c}"/>
+               </apex:column>
+               <apex:column headerValue="Cause">
+                    <apex:OutputText value="{!ir.Causetxt__c}"/>
+               </apex:column>
+               <apex:column headerValue="Comments">
+                    <apex:OutputText value="{!ir.Comment__c}"/>
+               </apex:column>            
+           </apex:pageBlockTable>
+           <br/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

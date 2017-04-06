@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Reimbursement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Reimbursements</value>
+    </caseValues>
+    <fields>
+        <help><!-- Contains brand code from the parent Issue. --></help>
+        <label><!-- Brand Code --></label>
+        <name>BrandCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check Amount --></label>
+        <name>Cheque_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer --></label>
+        <name>Consumer__c</name>
+        <relationshipLabel><!-- Reimbursements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Coupon Qty --></label>
+        <name>Coupon_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coupon --></label>
+        <name>Coupon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExtractDate --></label>
+        <name>ExtractDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- FulfillDate --></label>
+        <name>FulfillDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment --></label>
+        <name>Fulfillment__c</name>
+        <relationshipLabel><!-- Reimbursements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Issue ID --></label>
+        <name>IssueID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Name --></label>
+        <name>Issue__c</name>
+        <relationshipLabel><!-- Reimbursements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MailToAddressZip4 --></label>
+        <name>MailToAddressZip4__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpCo --></label>
+        <name>OpCo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Code --></label>
+        <name>PackageCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program Code --></label>
+        <name>ProgramCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reimbursement Type --></label>
+        <name>Reimbursement_Type__c</name>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ReshipDate --></label>
+        <name>ReshipDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tenant Id --></label>
+        <name>Tenant_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- TransactionIdName --></label>
+        <name>TransactionIdName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Id --></label>
+        <name>TransactionId__c</name>
+        <relationshipLabel><!-- Reimbursements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management History ID --></label>
+        <name>TransactionManagementHistoryID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management History --></label>
+        <name>Transaction_Management_History__c</name>
+        <relationshipLabel><!-- Reimbursements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- isReviewed --></label>
+        <name>isReviewed__c</name>
+    </fields>
+    <layouts>
+        <layout>Reimbursement Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

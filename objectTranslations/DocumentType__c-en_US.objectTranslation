@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Document Type</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Document Types</value>
+    </caseValues>
+    <fields>
+        <label><!-- ArchivalDate --></label>
+        <name>ArchivalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- DisplayOrder --></label>
+        <name>DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>DocTyp__c</name>
+        <picklistValues>
+            <masterLabel>Inbound</masterLabel>
+            <translation><!-- Inbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outbound</masterLabel>
+            <translation><!-- Outbound --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- DocumentTypeCode --></label>
+        <name>DocumentTypeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Category --></label>
+        <name>Document_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- FileExtension --></label>
+        <name>FileExtension__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>FileName__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsActive --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letter Text --></label>
+        <name>LetterText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating Company --></label>
+        <name>OpCo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Code --></label>
+        <name>PkgCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- PrintLetterHead --></label>
+        <name>PrintLetterHead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requires Fulfillment --></label>
+        <name>ReqFulfillment__c</name>
+    </fields>
+    <fields>
+        <label><!-- TenantId --></label>
+        <name>TenantId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Code --></label>
+        <name>VendorCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- isReimbursement --></label>
+        <name>isReimbursement__c</name>
+    </fields>
+    <fields>
+        <label><!-- isTrade --></label>
+        <name>isTrade__c</name>
+    </fields>
+    <fields>
+        <label><!-- showMasterField --></label>
+        <name>showMasterField__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,2229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Brand Hierarchy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Brand Hierarchies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Archival Date --></label>
+        <name>Archival_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Classification --></label>
+        <name>Brand_Classification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Code --></label>
+        <name>Brand_Code__c</name>
+        <relationshipLabel><!-- Brand Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Brand MM Code --></label>
+        <name>Brand_MM_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Sas Code --></label>
+        <name>Brand_Sas_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Status --></label>
+        <name>Brand_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- CodeCategory --></label>
+        <name>CodeCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Type --></label>
+        <name>CodeType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cut --></label>
+        <name>Cut__c</name>
+        <picklistValues>
+            <masterLabel>Black</masterLabel>
+            <translation><!-- Black --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brown</masterLabel>
+            <translation><!-- Brown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extra Long</masterLabel>
+            <translation><!-- Extra Long --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fine</masterLabel>
+            <translation><!-- Fine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fine Cut</masterLabel>
+            <translation><!-- Fine Cut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long</masterLabel>
+            <translation><!-- Long --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Cut</masterLabel>
+            <translation><!-- Long Cut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NULL</masterLabel>
+            <translation><!-- NULL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neat</masterLabel>
+            <translation><!-- Neat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pink</masterLabel>
+            <translation><!-- Pink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation><!-- Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tan</masterLabel>
+            <translation><!-- Tan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Filter --></label>
+        <name>Filter__c</name>
+        <picklistValues>
+            <masterLabel>2A</masterLabel>
+            <translation><!-- 2A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500mA</masterLabel>
+            <translation><!-- 500mA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500mA - EU</masterLabel>
+            <translation><!-- 500mA - EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500mA - NZ</masterLabel>
+            <translation><!-- 500mA - NZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500mA - UK</masterLabel>
+            <translation><!-- 500mA - UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Filter</masterLabel>
+            <translation><!-- Filter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Filtered</masterLabel>
+            <translation><!-- Filtered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flavormax</masterLabel>
+            <translation><!-- Flavormax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSAW-001</masterLabel>
+            <translation><!-- GSAW-001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LED Green</masterLabel>
+            <translation><!-- LED Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LED Green - UK</masterLabel>
+            <translation><!-- LED Green - UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LED Red</masterLabel>
+            <translation><!-- LED Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LED Red - UK</masterLabel>
+            <translation><!-- LED Red - UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multifilter</masterLabel>
+            <translation><!-- Multifilter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NULL</masterLabel>
+            <translation><!-- NULL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Filtered</masterLabel>
+            <translation><!-- Non-Filtered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plastic</masterLabel>
+            <translation><!-- Plastic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US to EU</masterLabel>
+            <translation><!-- US to EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vapors</masterLabel>
+            <translation><!-- Vapors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wood</masterLabel>
+            <translation><!-- Wood --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flavor --></label>
+        <name>Flavor__c</name>
+        <picklistValues>
+            <masterLabel>Absolute Tobacco</masterLabel>
+            <translation><!-- Absolute Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amber</masterLabel>
+            <translation><!-- Amber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apple</masterLabel>
+            <translation><!-- Apple --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berry</masterLabel>
+            <translation><!-- Berry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black</masterLabel>
+            <translation><!-- Black --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blend No. 27</masterLabel>
+            <translation><!-- Blend No. 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Mint</masterLabel>
+            <translation><!-- Blue Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bold Classic 4.5</masterLabel>
+            <translation><!-- Bold Classic 4.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bold Menthol 4.5</masterLabel>
+            <translation><!-- Bold Menthol 4.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bold Original 4.5</masterLabel>
+            <translation><!-- Bold Original 4.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bold Wintergreen</masterLabel>
+            <translation><!-- Bold Wintergreen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cherry</masterLabel>
+            <translation><!-- Cherry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citrus</masterLabel>
+            <translation><!-- Citrus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classic</masterLabel>
+            <translation><!-- Classic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classic 2.4</masterLabel>
+            <translation><!-- Classic 2.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classic 2.5</masterLabel>
+            <translation><!-- Classic 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cool Mint</masterLabel>
+            <translation><!-- Cool Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cool Mint Tobacco</masterLabel>
+            <translation><!-- Cool Mint Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crisp</masterLabel>
+            <translation><!-- Crisp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crisp Blend</masterLabel>
+            <translation><!-- Crisp Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crisp Mint</masterLabel>
+            <translation><!-- Crisp Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dark</masterLabel>
+            <translation><!-- Dark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dark Blend</masterLabel>
+            <translation><!-- Dark Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fusion</masterLabel>
+            <translation><!-- Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fusion 2.5</masterLabel>
+            <translation><!-- Fusion 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Mint</masterLabel>
+            <translation><!-- Green Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harvest Blend</masterLabel>
+            <translation><!-- Harvest Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key</masterLabel>
+            <translation><!-- Key --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menthol</masterLabel>
+            <translation><!-- Menthol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menthol 2.4</masterLabel>
+            <translation><!-- Menthol 2.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menthol 2.5</masterLabel>
+            <translation><!-- Menthol 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menthol Fusion</masterLabel>
+            <translation><!-- Menthol Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menthol Ice</masterLabel>
+            <translation><!-- Menthol Ice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Menthol Smooth</masterLabel>
+            <translation><!-- Menthol Smooth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mint</masterLabel>
+            <translation><!-- Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mocha Mist</masterLabel>
+            <translation><!-- Mocha Mist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain Clove</masterLabel>
+            <translation><!-- Mountain Clove --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural</masterLabel>
+            <translation><!-- Natural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original</masterLabel>
+            <translation><!-- Original --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Original Tobacco</masterLabel>
+            <translation><!-- Original Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peach</masterLabel>
+            <translation><!-- Peach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peppermint</masterLabel>
+            <translation><!-- Peppermint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Label</masterLabel>
+            <translation><!-- Red Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular</masterLabel>
+            <translation><!-- Regular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regular To Menthol</masterLabel>
+            <translation><!-- Regular To Menthol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rich</masterLabel>
+            <translation><!-- Rich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rich Blend</masterLabel>
+            <translation><!-- Rich Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rich Tobacco</masterLabel>
+            <translation><!-- Rich Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robust</masterLabel>
+            <translation><!-- Robust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select Blend</masterLabel>
+            <translation><!-- Select Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smooth Chocolate</masterLabel>
+            <translation><!-- Smooth Chocolate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smooth Cream</masterLabel>
+            <translation><!-- Smooth Cream --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smooth Hickory</masterLabel>
+            <translation><!-- Smooth Hickory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smooth Mint</masterLabel>
+            <translation><!-- Smooth Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smooth Mint Tobacco</masterLabel>
+            <translation><!-- Smooth Mint Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Blend</masterLabel>
+            <translation><!-- Southern Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spearmint</masterLabel>
+            <translation><!-- Spearmint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Blend Regular</masterLabel>
+            <translation><!-- Special Blend Regular --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Straight</masterLabel>
+            <translation><!-- Straight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong</masterLabel>
+            <translation><!-- Strong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer Blend</masterLabel>
+            <translation><!-- Summer Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweet</masterLabel>
+            <translation><!-- Sweet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tobacco Gold</masterLabel>
+            <translation><!-- Tobacco Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Va Blend</masterLabel>
+            <translation><!-- Va Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanilla</masterLabel>
+            <translation><!-- Vanilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanilla Dreams</masterLabel>
+            <translation><!-- Vanilla Dreams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Variety</masterLabel>
+            <translation><!-- Variety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vineyard Blend 2.5</masterLabel>
+            <translation><!-- Vineyard Blend 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WeymanS Best</masterLabel>
+            <translation><!-- WeymanS Best --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whiskey Blend</masterLabel>
+            <translation><!-- Whiskey Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winter Mint</masterLabel>
+            <translation><!-- Winter Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winter Mint 2.5</masterLabel>
+            <translation><!-- Winter Mint 2.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winter Mint 3.5</masterLabel>
+            <translation><!-- Winter Mint 3.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wintergreen</masterLabel>
+            <translation><!-- Wintergreen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Tra Crisp Blend</masterLabel>
+            <translation><!-- X-Tra Crisp Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Tra Mint</masterLabel>
+            <translation><!-- X-Tra Mint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Tra Rich Blend</masterLabel>
+            <translation><!-- X-Tra Rich Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Tra Wintergreen Blend</masterLabel>
+            <translation><!-- X-Tra Wintergreen Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-tra Mint Chill</masterLabel>
+            <translation><!-- X-tra Mint Chill --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length --></label>
+        <name>Length__c</name>
+        <picklistValues>
+            <masterLabel>100s</masterLabel>
+            <translation><!-- 100s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120s</masterLabel>
+            <translation><!-- 120s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>72mm</masterLabel>
+            <translation><!-- 72mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>83mm</masterLabel>
+            <translation><!-- 83mm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black</masterLabel>
+            <translation><!-- Black --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cube</masterLabel>
+            <translation><!-- Cube --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposable</masterLabel>
+            <translation><!-- Disposable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flat Wire</masterLabel>
+            <translation><!-- Flat Wire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>King Size</masterLabel>
+            <translation><!-- King Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long</masterLabel>
+            <translation><!-- Long --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Size</masterLabel>
+            <translation><!-- Long Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mini</masterLabel>
+            <translation><!-- Mini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NULL</masterLabel>
+            <translation><!-- NULL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Size</masterLabel>
+            <translation><!-- Other Size --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plastic</masterLabel>
+            <translation><!-- Plastic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plug Adapter</masterLabel>
+            <translation><!-- Plug Adapter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STANDARD</masterLabel>
+            <translation><!-- STANDARD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Short</masterLabel>
+            <translation><!-- Short --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soft</masterLabel>
+            <translation><!-- Soft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stainless Steel</masterLabel>
+            <translation><!-- Stainless Steel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TANK</masterLabel>
+            <translation><!-- TANK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White</masterLabel>
+            <translation><!-- White --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XL</masterLabel>
+            <translation><!-- XL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XL LONG</masterLabel>
+            <translation><!-- XL LONG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- License Group --></label>
+        <name>License_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pack Type --></label>
+        <name>Pack_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging --></label>
+        <name>Packaging__c</name>
+        <picklistValues>
+            <masterLabel>1 1/2 Oz Packet</masterLabel>
+            <translation><!-- 1 1/2 Oz Packet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 3/8 Oz Packet</masterLabel>
+            <translation><!-- 1 3/8 Oz Packet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Pack</masterLabel>
+            <translation><!-- 10 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Ct  Tray-5-Pack</masterLabel>
+            <translation><!-- 10 Ct  Tray-5-Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Ct Display Of 7 - Pack</masterLabel>
+            <translation><!-- 10 Ct Display Of 7 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Ct Tray Of 7 - Pack</masterLabel>
+            <translation><!-- 10 Ct Tray Of 7 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Ct Tray-5-Packpromo201001</masterLabel>
+            <translation><!-- 10 Ct Tray-5-Packpromo201001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10-2-Pack Upright Promo 201002</masterLabel>
+            <translation><!-- 10-2-Pack Upright Promo 201002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10ct Tray-5-Packpromo201001</masterLabel>
+            <translation><!-- 10ct Tray-5-Packpromo201001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 Oz Can</masterLabel>
+            <translation><!-- 12 Oz Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14 Oz Can</masterLabel>
+            <translation><!-- 14 Oz Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil</masterLabel>
+            <translation><!-- 2 - Pack Foil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil B2G $0.50 OFF</masterLabel>
+            <translation><!-- 2 - Pack Foil B2G $0.50 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil CGR</masterLabel>
+            <translation><!-- 2 - Pack Foil CGR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil Promo $1.49</masterLabel>
+            <translation><!-- 2 - Pack Foil Promo $1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil Promo $2.29</masterLabel>
+            <translation><!-- 2 - Pack Foil Promo $2.29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil Promo 1.49</masterLabel>
+            <translation><!-- 2 - Pack Foil Promo 1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil Promo 99</masterLabel>
+            <translation><!-- 2 - Pack Foil Promo 99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil- $0.99</masterLabel>
+            <translation><!-- 2 - Pack Foil- $0.99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Pack Foil- $1.39</masterLabel>
+            <translation><!-- 2 - Pack Foil- $1.39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Pack</masterLabel>
+            <translation><!-- 2 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Pack 1.49</masterLabel>
+            <translation><!-- 2 Pack 1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-Pack Promo 201002</masterLabel>
+            <translation><!-- 2-Pack Promo 201002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 -Count Upright</masterLabel>
+            <translation><!-- 25 -Count Upright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 -Count Upright Singles</masterLabel>
+            <translation><!-- 25 -Count Upright Singles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25 -Ct  Upright</masterLabel>
+            <translation><!-- 25 -Ct  Upright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25s Hard Pack</masterLabel>
+            <translation><!-- 25s Hard Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Pack</masterLabel>
+            <translation><!-- 3 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Pack B2G1F</masterLabel>
+            <translation><!-- 3 - Pack B2G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Pack Foil B2G1F</masterLabel>
+            <translation><!-- 3 - Pack Foil B2G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 For Price of 2 - Pack Pack</masterLabel>
+            <translation><!-- 3 For Price of 2 - Pack Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-Pack Blister</masterLabel>
+            <translation><!-- 3-Pack Blister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-Pack Box</masterLabel>
+            <translation><!-- 3-Pack Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30 -Count Display</masterLabel>
+            <translation><!-- 30 -Count Display --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Pack</masterLabel>
+            <translation><!-- 5 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Pack $0.50 OFF</masterLabel>
+            <translation><!-- 5 - Pack $0.50 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Pack B4G1F</masterLabel>
+            <translation><!-- 5 - Pack B4G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Pack Foil</masterLabel>
+            <translation><!-- 5 - Pack Foil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Pack Sniped</masterLabel>
+            <translation><!-- 5 - Pack Sniped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Oz Bag</masterLabel>
+            <translation><!-- 5 Oz Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Pack</masterLabel>
+            <translation><!-- 5 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Pack - O</masterLabel>
+            <translation><!-- 5 Pack - O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Pack B4G1F</masterLabel>
+            <translation><!-- 5 Pack B4G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-Pack</masterLabel>
+            <translation><!-- 5-Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-Pack Promo 201001</masterLabel>
+            <translation><!-- 5-Pack Promo 201001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-Pack Promo 201201</masterLabel>
+            <translation><!-- 5-Pack Promo 201201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 -Count Club</masterLabel>
+            <translation><!-- 50 -Count Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 -Count Display</masterLabel>
+            <translation><!-- 50 -Count Display --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Pack</masterLabel>
+            <translation><!-- 6 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 - Count Club</masterLabel>
+            <translation><!-- 60 - Count Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Pack</masterLabel>
+            <translation><!-- 7 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Pack Promo</masterLabel>
+            <translation><!-- 7 - Pack Promo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 Oz Can</masterLabel>
+            <translation><!-- 7 Oz Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 Pack</masterLabel>
+            <translation><!-- 7 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 Oz Bag</masterLabel>
+            <translation><!-- 9 Oz Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blister Pack</masterLabel>
+            <translation><!-- Blister Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Box</masterLabel>
+            <translation><!-- Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (AK &amp; HI)</masterLabel>
+            <translation><!-- Can (AK &amp; HI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (Duty Free USA)</masterLabel>
+            <translation><!-- Can (Duty Free USA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (MILITARY)</masterLabel>
+            <translation><!-- Can (MILITARY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PR)</masterLabel>
+            <translation><!-- Can (PR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO .50)</masterLabel>
+            <translation><!-- Can (PROMO .50) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO 0.50)</masterLabel>
+            <translation><!-- Can (PROMO 0.50) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO 0.75 Off)</masterLabel>
+            <translation><!-- Can (PROMO 0.75 Off) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO 1.00)</masterLabel>
+            <translation><!-- Can (PROMO 1.00) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO 1.25)</masterLabel>
+            <translation><!-- Can (PROMO 1.25) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO 1.69 Per Can)</masterLabel>
+            <translation><!-- Can (PROMO 1.69 Per Can) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO 1.69)</masterLabel>
+            <translation><!-- Can (PROMO 1.69) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (PROMO-01)</masterLabel>
+            <translation><!-- Can (PROMO-01) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can (UPC)</masterLabel>
+            <translation><!-- Can (UPC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can Lead Market</masterLabel>
+            <translation><!-- Can Lead Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can Lead Market (Plus asterisk)</masterLabel>
+            <translation><!-- Can Lead Market (Plus asterisk) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can Promo 1.90</masterLabel>
+            <translation><!-- Can Promo 1.90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can Promo 2.25</masterLabel>
+            <translation><!-- Can Promo 2.25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Can Test Market Al</masterLabel>
+            <translation><!-- Can Test Market Al --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cannister 6 Oz</masterLabel>
+            <translation><!-- Cannister 6 Oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Horizontal</masterLabel>
+            <translation><!-- Carton Horizontal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Horizontal New</masterLabel>
+            <translation><!-- Carton Horizontal New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 1 1/2 Oz Packet</masterLabel>
+            <translation><!-- Carton Of 1 1/2 Oz Packet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack</masterLabel>
+            <translation><!-- Carton Of 2 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack 1.49</masterLabel>
+            <translation><!-- Carton Of 2 - Pack 1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil B2G $0.50 OFF</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil B2G $0.50 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil CGR</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil CGR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil Promo  $1.49</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil Promo  $1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil Promo $1.49</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil Promo $1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil Promo $2.29</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil Promo $2.29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil Promo 1.49</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil Promo 1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil Promo 99</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil Promo 99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil- $0.99</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil- $0.99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 2 - Pack Foil- $1.39</masterLabel>
+            <translation><!-- Carton Of 2 - Pack Foil- $1.39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 3 - Pack</masterLabel>
+            <translation><!-- Carton Of 3 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 3 - Pack B2G1F</masterLabel>
+            <translation><!-- Carton Of 3 - Pack B2G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 3 - Pack Foil B2G1F</masterLabel>
+            <translation><!-- Carton Of 3 - Pack Foil B2G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 5 - Pack</masterLabel>
+            <translation><!-- Carton Of 5 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 5 - Pack $0.50 OFF</masterLabel>
+            <translation><!-- Carton Of 5 - Pack $0.50 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 5 - Pack - O</masterLabel>
+            <translation><!-- Carton Of 5 - Pack - O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 5 - Pack B4G1F</masterLabel>
+            <translation><!-- Carton Of 5 - Pack B4G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 5 - Pack Foil</masterLabel>
+            <translation><!-- Carton Of 5 - Pack Foil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 5 - Pack Sniped</masterLabel>
+            <translation><!-- Carton Of 5 - Pack Sniped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 5 Pack B4G1F</masterLabel>
+            <translation><!-- Carton Of 5 Pack B4G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 7 - Pack</masterLabel>
+            <translation><!-- Carton Of 7 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of 7-Pack &amp; 25 Cnt Uprt</masterLabel>
+            <translation><!-- Carton Of 7-Pack &amp; 25 Cnt Uprt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of Box</masterLabel>
+            <translation><!-- Carton Of Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of Hard Pack</masterLabel>
+            <translation><!-- Carton Of Hard Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Of Pouches</masterLabel>
+            <translation><!-- Carton Of Pouches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton Vertical</masterLabel>
+            <translation><!-- Carton Vertical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Lead Market</masterLabel>
+            <translation><!-- Case Lead Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 1 1/2 Oz Packet</masterLabel>
+            <translation><!-- Case Of 1 1/2 Oz Packet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 100 CT Singles .79</masterLabel>
+            <translation><!-- Case Of 100 CT Singles .79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 100 CT Singles .89</masterLabel>
+            <translation><!-- Case Of 100 CT Singles .89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil - $0.99</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil - $0.99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil - $1.39</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil - $1.39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil B2G $0.50 OFF</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil B2G $0.50 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil CGR</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil CGR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil Promo  $1.49</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil Promo  $1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil Promo $1.49</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil Promo $1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil Promo $2.29</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil Promo $2.29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil Promo 1.49</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil Promo 1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 - Pack Foil Promo 99</masterLabel>
+            <translation><!-- Case Of 2 - Pack Foil Promo 99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 Pack</masterLabel>
+            <translation><!-- Case Of 2 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 2 Pack 1.49</masterLabel>
+            <translation><!-- Case Of 2 Pack 1.49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 25 -Count Upright</masterLabel>
+            <translation><!-- Case Of 25 -Count Upright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 3 - Pack Foil B2G1F</masterLabel>
+            <translation><!-- Case Of 3 - Pack Foil B2G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 3 Pack</masterLabel>
+            <translation><!-- Case Of 3 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 3 Pack B2G1F</masterLabel>
+            <translation><!-- Case Of 3 Pack B2G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 300 7 - Pack</masterLabel>
+            <translation><!-- Case Of 300 7 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 - Pack</masterLabel>
+            <translation><!-- Case Of 5 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 - Pack Foil</masterLabel>
+            <translation><!-- Case Of 5 - Pack Foil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 Pack</masterLabel>
+            <translation><!-- Case Of 5 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 Pack $0.50 OFF</masterLabel>
+            <translation><!-- Case Of 5 Pack $0.50 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 Pack - O</masterLabel>
+            <translation><!-- Case Of 5 Pack - O --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 Pack B4G1F</masterLabel>
+            <translation><!-- Case Of 5 Pack B4G1F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 Pack Incentive Offer</masterLabel>
+            <translation><!-- Case Of 5 Pack Incentive Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 Pack Incentive Offer 2</masterLabel>
+            <translation><!-- Case Of 5 Pack Incentive Offer 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 5 Pack Sniped</masterLabel>
+            <translation><!-- Case Of 5 Pack Sniped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 50 -Count Club</masterLabel>
+            <translation><!-- Case Of 50 -Count Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 60 - Count Club</masterLabel>
+            <translation><!-- Case Of 60 - Count Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 7 - Pack</masterLabel>
+            <translation><!-- Case Of 7 - Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 7 Pack</masterLabel>
+            <translation><!-- Case Of 7 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of 7-Pack &amp; 25 Cnt Uprght</masterLabel>
+            <translation><!-- Case Of 7-Pack &amp; 25 Cnt Uprght --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Box</masterLabel>
+            <translation><!-- Case Of Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Cans</masterLabel>
+            <translation><!-- Case Of Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Cans Lead Market</masterLabel>
+            <translation><!-- Case Of Cans Lead Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Cans Promo 1.90</masterLabel>
+            <translation><!-- Case Of Cans Promo 1.90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Cans Promo 2.25</masterLabel>
+            <translation><!-- Case Of Cans Promo 2.25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Cans Promotion</masterLabel>
+            <translation><!-- Case Of Cans Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Giant Tumblers</masterLabel>
+            <translation><!-- Case Of Giant Tumblers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Hard Pack</masterLabel>
+            <translation><!-- Case Of Hard Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Medium Cans</masterLabel>
+            <translation><!-- Case Of Medium Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Pocket Cans</masterLabel>
+            <translation><!-- Case Of Pocket Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Pouches</masterLabel>
+            <translation><!-- Case Of Pouches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Rolls</masterLabel>
+            <translation><!-- Case Of Rolls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles</masterLabel>
+            <translation><!-- Case Of Singles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles $0.25 OFF</masterLabel>
+            <translation><!-- Case Of Singles $0.25 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles $0.69</masterLabel>
+            <translation><!-- Case Of Singles $0.69 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles $0.79</masterLabel>
+            <translation><!-- Case Of Singles $0.79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles $0.89</masterLabel>
+            <translation><!-- Case Of Singles $0.89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles .79</masterLabel>
+            <translation><!-- Case Of Singles .79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles .89</masterLabel>
+            <translation><!-- Case Of Singles .89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles .99</masterLabel>
+            <translation><!-- Case Of Singles .99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles 30 Count Display</masterLabel>
+            <translation><!-- Case Of Singles 30 Count Display --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles Club</masterLabel>
+            <translation><!-- Case Of Singles Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Singles Revenue</masterLabel>
+            <translation><!-- Case Of Singles Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Slim Cans</masterLabel>
+            <translation><!-- Case Of Slim Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Thrift Cans</masterLabel>
+            <translation><!-- Case Of Thrift Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Thrift Tumblers</masterLabel>
+            <translation><!-- Case Of Thrift Tumblers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Of Tubes</masterLabel>
+            <translation><!-- Case Of Tubes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Test Market Al</masterLabel>
+            <translation><!-- Case Test Market Al --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case of 5-Pack Promo 201201</masterLabel>
+            <translation><!-- Case of 5-Pack Promo 201201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case of 50 Count Displays</masterLabel>
+            <translation><!-- Case of 50 Count Displays --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case of Tubes Horizontal</masterLabel>
+            <translation><!-- Case of Tubes Horizontal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case of Tubes Vertical</masterLabel>
+            <translation><!-- Case of Tubes Vertical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case-2 Pack Promo 201002</masterLabel>
+            <translation><!-- Case-2 Pack Promo 201002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case-5 Pack</masterLabel>
+            <translation><!-- Case-5 Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case-5 Pack Promo 201001</masterLabel>
+            <translation><!-- Case-5 Pack Promo 201001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case-Singles</masterLabel>
+            <translation><!-- Case-Singles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club Display Of Singles</masterLabel>
+            <translation><!-- Club Display Of Singles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Carton 100 .79</masterLabel>
+            <translation><!-- Display Carton 100 .79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Carton 100 .89</masterLabel>
+            <translation><!-- Display Carton 100 .89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Carton 25</masterLabel>
+            <translation><!-- Display Carton 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Carton 25 .79</masterLabel>
+            <translation><!-- Display Carton 25 .79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Carton 25 .89</masterLabel>
+            <translation><!-- Display Carton 25 .89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Carton 25 .99</masterLabel>
+            <translation><!-- Display Carton 25 .99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of $0.79</masterLabel>
+            <translation><!-- Display Of $0.79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of $0.89</masterLabel>
+            <translation><!-- Display Of $0.89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of 30- Count</masterLabel>
+            <translation><!-- Display Of 30- Count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of Cans</masterLabel>
+            <translation><!-- Display Of Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of Singles</masterLabel>
+            <translation><!-- Display Of Singles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of Singles $0.25 OFF</masterLabel>
+            <translation><!-- Display Of Singles $0.25 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of Singles $0.69</masterLabel>
+            <translation><!-- Display Of Singles $0.69 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of Singles $0.79</masterLabel>
+            <translation><!-- Display Of Singles $0.79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display Of Singles Revenue</masterLabel>
+            <translation><!-- Display Of Singles Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU Express Starter Kit</masterLabel>
+            <translation><!-- EU Express Starter Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU Starter Kit (Accessory Kit)</masterLabel>
+            <translation><!-- EU Starter Kit (Accessory Kit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU Starter Kit Accessory Kit UK</masterLabel>
+            <translation><!-- EU Starter Kit Accessory Kit UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foil Pack 6</masterLabel>
+            <translation><!-- Foil Pack 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foil Pack Sample 2</masterLabel>
+            <translation><!-- Foil Pack Sample 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Tumbler</masterLabel>
+            <translation><!-- Giant Tumbler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Smoke Starter Kit</masterLabel>
+            <translation><!-- Green Smoke Starter Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Smoke Starter Kit (NZ)</masterLabel>
+            <translation><!-- Green Smoke Starter Kit (NZ) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack</masterLabel>
+            <translation><!-- Hard Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack - .50 Off</masterLabel>
+            <translation><!-- Hard Pack - .50 Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack 25s</masterLabel>
+            <translation><!-- Hard Pack 25s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack Blue</masterLabel>
+            <translation><!-- Hard Pack Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack Carton</masterLabel>
+            <translation><!-- Hard Pack Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack Carton - .50 Off</masterLabel>
+            <translation><!-- Hard Pack Carton - .50 Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack Case</masterLabel>
+            <translation><!-- Hard Pack Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack Case - .50 Off</masterLabel>
+            <translation><!-- Hard Pack Case - .50 Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack Green</masterLabel>
+            <translation><!-- Hard Pack Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hard Pack Purse</masterLabel>
+            <translation><!-- Hard Pack Purse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intro Kit - EU</masterLabel>
+            <translation><!-- Intro Kit - EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intro Kit Blister</masterLabel>
+            <translation><!-- Intro Kit Blister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kit</masterLabel>
+            <translation><!-- Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kit Accessory Pack</masterLabel>
+            <translation><!-- Kit Accessory Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium Can</masterLabel>
+            <translation><!-- Medium Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Packing</masterLabel>
+            <translation><!-- Other Packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper Can / Tin Lid</masterLabel>
+            <translation><!-- Paper Can / Tin Lid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pocket Can</masterLabel>
+            <translation><!-- Pocket Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pouch</masterLabel>
+            <translation><!-- Pouch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pouch 0.75 Oz</masterLabel>
+            <translation><!-- Pouch 0.75 Oz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Princess Pack</masterLabel>
+            <translation><!-- Princess Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quick Start Kit</masterLabel>
+            <translation><!-- Quick Start Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechargeable Kit</masterLabel>
+            <translation><!-- Rechargeable Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechargeable Kit - Clamshell packaging</masterLabel>
+            <translation><!-- Rechargeable Kit - Clamshell packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacement</masterLabel>
+            <translation><!-- Replacement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll</masterLabel>
+            <translation><!-- Roll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Lead Market</masterLabel>
+            <translation><!-- Roll Lead Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Of Cans</masterLabel>
+            <translation><!-- Roll Of Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Of Cans Lead Market</masterLabel>
+            <translation><!-- Roll Of Cans Lead Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Of Cans Promo 1.90</masterLabel>
+            <translation><!-- Roll Of Cans Promo 1.90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Of Pocket Cans</masterLabel>
+            <translation><!-- Roll Of Pocket Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Of Slim Can</masterLabel>
+            <translation><!-- Roll Of Slim Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Of Slim Cans</masterLabel>
+            <translation><!-- Roll Of Slim Cans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Promo 2.25</masterLabel>
+            <translation><!-- Roll Promo 2.25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll Test Market Al</masterLabel>
+            <translation><!-- Roll Test Market Al --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rounded Corner Box</masterLabel>
+            <translation><!-- Rounded Corner Box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles</masterLabel>
+            <translation><!-- Singles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles $0.25 OFF</masterLabel>
+            <translation><!-- Singles $0.25 OFF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles $0.69</masterLabel>
+            <translation><!-- Singles $0.69 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles $0.79</masterLabel>
+            <translation><!-- Singles $0.79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles $0.89</masterLabel>
+            <translation><!-- Singles $0.89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles .79</masterLabel>
+            <translation><!-- Singles .79 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles .89</masterLabel>
+            <translation><!-- Singles .89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles .99</masterLabel>
+            <translation><!-- Singles .99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles B1</masterLabel>
+            <translation><!-- Singles B1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles Revenue</masterLabel>
+            <translation><!-- Singles Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singles Tube</masterLabel>
+            <translation><!-- Singles Tube --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slim Can</masterLabel>
+            <translation><!-- Slim Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soft Pack</masterLabel>
+            <translation><!-- Soft Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thrift Can</masterLabel>
+            <translation><!-- Thrift Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thrift Tumbler</masterLabel>
+            <translation><!-- Thrift Tumbler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tray 6 Pouch</masterLabel>
+            <translation><!-- Tray 6 Pouch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tube</masterLabel>
+            <translation><!-- Tube --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Express Starter Kit</masterLabel>
+            <translation><!-- UK Express Starter Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Starter Kit</masterLabel>
+            <translation><!-- UK Starter Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unit</masterLabel>
+            <translation><!-- Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale Pro Kit</masterLabel>
+            <translation><!-- Wholesale Pro Kit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale Starter Kit</masterLabel>
+            <translation><!-- Wholesale Starter Kit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PaperType --></label>
+        <name>PaperType__c</name>
+        <picklistValues>
+            <masterLabel>Banded Paper</masterLabel>
+            <translation><!-- Banded Paper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banded Paper Ny</masterLabel>
+            <translation><!-- Banded Paper Ny --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer  - Smooth Chocolate  Manhattan</masterLabel>
+            <translation><!-- Designer  - Smooth Chocolate  Manhattan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - Absolute Tobacco  Cooperstown</masterLabel>
+            <translation><!-- Designer - Absolute Tobacco  Cooperstown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - Black  Nashville</masterLabel>
+            <translation><!-- Designer - Black  Nashville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - I Love Green Smoke  Springfield</masterLabel>
+            <translation><!-- Designer - I Love Green Smoke  Springfield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - Menthol Ice  New Orleans</masterLabel>
+            <translation><!-- Designer - Menthol Ice  New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - Mocha Mist  Seattle</masterLabel>
+            <translation><!-- Designer - Mocha Mist  Seattle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - Red Label  El Paso</masterLabel>
+            <translation><!-- Designer - Red Label  El Paso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - Tobacco Gold  Chicago</masterLabel>
+            <translation><!-- Designer - Tobacco Gold  Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer - Vanilla Dreams  Charleston</masterLabel>
+            <translation><!-- Designer - Vanilla Dreams  Charleston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer Battery Long Green LED - I Love Green Smoke  Springfield</masterLabel>
+            <translation><!-- Designer Battery Long Green LED - I Love Green Smoke  Springfield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer Battery Long Green LED - Mocha Mist  Seattle</masterLabel>
+            <translation><!-- Designer Battery Long Green LED - Mocha Mist  Seattle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer Battery Long Green LED - Smooth Chocolate  Manhattan</masterLabel>
+            <translation><!-- Designer Battery Long Green LED - Smooth Chocolate  Manhattan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designer Battery Long Green LED - Vanilla Dreams  Charleston</masterLabel>
+            <translation><!-- Designer Battery Long Green LED - Vanilla Dreams  Charleston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intro</masterLabel>
+            <translation><!-- Intro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leather</masterLabel>
+            <translation><!-- Leather --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metal</masterLabel>
+            <translation><!-- Metal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NULL</masterLabel>
+            <translation><!-- NULL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non Banded Paper</masterLabel>
+            <translation><!-- Non Banded Paper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rolling</masterLabel>
+            <translation><!-- Rolling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rubber</masterLabel>
+            <translation><!-- Rubber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sparkle</masterLabel>
+            <translation><!-- Sparkle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green  LED ABS Tobacco  Cooperstown</masterLabel>
+            <translation><!-- UK Designer Battery Long Green  LED ABS Tobacco  Cooperstown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green  LED Mocha Mist  Seattle</masterLabel>
+            <translation><!-- UK Designer Battery Long Green  LED Mocha Mist  Seattle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green LED I Love Green Smoke  Springfield</masterLabel>
+            <translation><!-- UK Designer Battery Long Green LED I Love Green Smoke  Springfield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green LED Menthol Ice  New Orleans</masterLabel>
+            <translation><!-- UK Designer Battery Long Green LED Menthol Ice  New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green LED Red Label  El Paso</masterLabel>
+            <translation><!-- UK Designer Battery Long Green LED Red Label  El Paso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green LED Smooth Chocolate  Manhattan</masterLabel>
+            <translation><!-- UK Designer Battery Long Green LED Smooth Chocolate  Manhattan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green LED Tobacco Gold  Chicago</masterLabel>
+            <translation><!-- UK Designer Battery Long Green LED Tobacco Gold  Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK Designer Battery Long Green LED Vanilla Dreams  Charleston</masterLabel>
+            <translation><!-- UK Designer Battery Long Green LED Vanilla Dreams  Charleston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pick Up Policy Weeks --></label>
+        <name>Pick_Up_Policy_Weeks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pm Brand Code --></label>
+        <name>Pm_Brand_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Category --></label>
+        <name>Price_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Code --></label>
+        <name>ProductLine_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Desc --></label>
+        <name>Product_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Code --></label>
+        <name>Product_Line_Code__c</name>
+        <relationshipLabel><!-- Brand Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reporting Brand Family --></label>
+        <name>Reporting_Brand_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Cut --></label>
+        <name>Short_Cut__c</name>
+    </fields>
+    <fields>
+        <label><!-- String Data --></label>
+        <name>String_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taste --></label>
+        <name>Taste__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.006</masterLabel>
+            <translation><!-- 0.006 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.012</masterLabel>
+            <translation><!-- 0.012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.018</masterLabel>
+            <translation><!-- 0.018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.024</masterLabel>
+            <translation><!-- 0.024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2A</masterLabel>
+            <translation><!-- 2A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4-Port</masterLabel>
+            <translation><!-- 4-Port --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500mA</masterLabel>
+            <translation><!-- 500mA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Special Blend</masterLabel>
+            <translation><!-- Black Special Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blend No. 27</masterLabel>
+            <translation><!-- Blend No. 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blend No. 32</masterLabel>
+            <translation><!-- Blend No. 32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blend No. 54</masterLabel>
+            <translation><!-- Blend No. 54 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Pack</masterLabel>
+            <translation><!-- Blue Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bold</masterLabel>
+            <translation><!-- Bold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronze Pack</masterLabel>
+            <translation><!-- Bronze Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronze Pack Blend No. 27</masterLabel>
+            <translation><!-- Bronze Pack Blend No. 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chewable Dissolvables</masterLabel>
+            <translation><!-- Chewable Dissolvables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chews</masterLabel>
+            <translation><!-- Chews --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constant Power</masterLabel>
+            <translation><!-- Constant Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deluxe</masterLabel>
+            <translation><!-- Deluxe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disposable</masterLabel>
+            <translation><!-- Disposable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-COMMERCE</masterLabel>
+            <translation><!-- E-COMMERCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edge</masterLabel>
+            <translation><!-- Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Flavor</masterLabel>
+            <translation><!-- Full Flavor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold Pack</masterLabel>
+            <translation><!-- Gold Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold Pack 25s</masterLabel>
+            <translation><!-- Gold Pack 25s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Pack</masterLabel>
+            <translation><!-- Green Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ice</masterLabel>
+            <translation><!-- Ice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lights</masterLabel>
+            <translation><!-- Lights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lowest/Superlights/Ultima</masterLabel>
+            <translation><!-- Lowest/Superlights/Ultima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxury</masterLabel>
+            <translation><!-- Luxury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melts</masterLabel>
+            <translation><!-- Melts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midnight</masterLabel>
+            <translation><!-- Midnight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milds</masterLabel>
+            <translation><!-- Milds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multifilter</masterLabel>
+            <translation><!-- Multifilter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiufilter</masterLabel>
+            <translation><!-- Multiufilter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAT</masterLabel>
+            <translation><!-- NAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NXT</masterLabel>
+            <translation><!-- NXT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Label</masterLabel>
+            <translation><!-- Red Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Pack</masterLabel>
+            <translation><!-- Red Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reserve</masterLabel>
+            <translation><!-- Reserve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rich Blue</masterLabel>
+            <translation><!-- Rich Blue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select</masterLabel>
+            <translation><!-- Select --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver Pack</masterLabel>
+            <translation><!-- Silver Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skyline</masterLabel>
+            <translation><!-- Skyline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slate</masterLabel>
+            <translation><!-- Slate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smooth</masterLabel>
+            <translation><!-- Smooth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Cut</masterLabel>
+            <translation><!-- Southern Cut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Blend</masterLabel>
+            <translation><!-- Special Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Blend Black Pack</masterLabel>
+            <translation><!-- Special Blend Black Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Blend Gold Pack</masterLabel>
+            <translation><!-- Special Blend Gold Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Blend Red Pack</masterLabel>
+            <translation><!-- Special Blend Red Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Blend Unknown</masterLabel>
+            <translation><!-- Special Blend Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superslims</masterLabel>
+            <translation><!-- Superslims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superslims Gold Pack</masterLabel>
+            <translation><!-- Superslims Gold Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superslims Lights</masterLabel>
+            <translation><!-- Superslims Lights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superslims Uknown Taste</masterLabel>
+            <translation><!-- Superslims Uknown Taste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superslims Unknown Taste</masterLabel>
+            <translation><!-- Superslims Unknown Taste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkish Blend</masterLabel>
+            <translation><!-- Turkish Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkish Night</masterLabel>
+            <translation><!-- Turkish Night --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultra Lights</masterLabel>
+            <translation><!-- Ultra Lights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undetermined</masterLabel>
+            <translation><!-- Undetermined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Va Blend</masterLabel>
+            <translation><!-- Va Blend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Pack</masterLabel>
+            <translation><!-- White Pack --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TenantId --></label>
+        <name>TenantId__c</name>
+    </fields>
+    <fields>
+        <label><!-- UPC --></label>
+        <name>UPC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Units Per Pack --></label>
+        <name>Units_Per_Pack__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ust Date Type --></label>
+        <name>Ust_Date_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vantive Id --></label>
+        <name>Vantive_Id__c</name>
+    </fields>
+    <layouts>
+        <layout>Brand Hierarchy Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

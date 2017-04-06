@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Attachment Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Attachment Details</value>
+    </caseValues>
+    <fields>
+        <label><!-- AttachmentId --></label>
+        <name>AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment Name --></label>
+        <name>Attachment_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Type --></label>
+        <name>File_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- IssueID --></label>
+        <name>IssueID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue --></label>
+        <name>Issue__c</name>
+        <relationshipLabel><!-- Attachment Details --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- isReviewed --></label>
+        <name>isReviewed__c</name>
+    </fields>
+    <layouts>
+        <layout>Attachment Detail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

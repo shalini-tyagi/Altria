@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction Management History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transaction Management Histories</value>
+    </caseValues>
+    <fields>
+        <help><!-- Amount of the associated reimbursement. --></help>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Associated --></label>
+        <name>Contact_Associated__c</name>
+    </fields>
+    <fields>
+        <help><!-- Local Customer Id of the Customer associated with the parent Transaction. --></help>
+        <label><!-- Customer Id --></label>
+        <name>Customer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Transaction Management Histories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Disposition --></label>
+        <name>Disposition__c</name>
+    </fields>
+    <fields>
+        <help><!-- First Name of the Customer associated with the parent Transaction. --></help>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Local Id of the Issue associated. --></help>
+        <label><!-- Issue Number --></label>
+        <name>Issue_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last Name of the Customer associated with the parent Transaction. --></help>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Letter Type from the associated Correspondence. --></help>
+        <label><!-- Letter Type --></label>
+        <name>Letter_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Operating company of the transaction. --></help>
+        <label><!-- Operating Company --></label>
+        <name>Operating_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Code --></label>
+        <name>Package_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Group Code --></label>
+        <name>Service_Group_Code__c</name>
+        <picklistValues>
+            <masterLabel>CRC</masterLabel>
+            <translation><!-- CRC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRCAGEVERIFY</masterLabel>
+            <translation><!-- CRCAGEVERIFY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRCAGEVERIFYRQ</masterLabel>
+            <translation><!-- CRCAGEVERIFYRQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CUSTOMERS</masterLabel>
+            <translation><!-- CUSTOMERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correspondence</masterLabel>
+            <translation><!-- Correspondence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ISSUES</masterLabel>
+            <translation><!-- ISSUES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNASRequest</masterLabel>
+            <translation><!-- PNASRequest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGProgramAllocation</masterLabel>
+            <translation><!-- SGProgramAllocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey</masterLabel>
+            <translation><!-- Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAVDecline</masterLabel>
+            <translation><!-- TAVDecline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UpdateSurvey</masterLabel>
+            <translation><!-- UpdateSurvey --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Denotes the History type. --></help>
+        <label><!-- Service Request Code --></label>
+        <name>Service_Request_Code__c</name>
+        <picklistValues>
+            <masterLabel>AGE_VERIFICATION_REQUEST</masterLabel>
+            <translation><!-- AGE_VERIFICATION_REQUEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGE_VERIFY</masterLabel>
+            <translation><!-- AGE_VERIFY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCNLOOKUP</masterLabel>
+            <translation><!-- CCNLOOKUP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORSP_OUTBOUND</masterLabel>
+            <translation><!-- CORSP_OUTBOUND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CREATECUST</masterLabel>
+            <translation><!-- CREATECUST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CREATEISSUE</masterLabel>
+            <translation><!-- CREATEISSUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CREATE_REIMB</masterLabel>
+            <translation><!-- CREATE_REIMB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CREATE_SURVEY</masterLabel>
+            <translation><!-- CREATE_SURVEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENDCALL</masterLabel>
+            <translation><!-- ENDCALL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FULL_SEARCH</masterLabel>
+            <translation><!-- FULL_SEARCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPDATECUST</masterLabel>
+            <translation><!-- UPDATECUST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPDATEISSUE</masterLabel>
+            <translation><!-- UPDATEISSUE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPDATE_REIMB</masterLabel>
+            <translation><!-- UPDATE_REIMB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPDATE_SURVEY</masterLabel>
+            <translation><!-- UPDATE_SURVEY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Status of the Survey associated. --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Survey Termination Reason --></help>
+        <label><!-- Survey Termination Reason --></label>
+        <name>Survey_Termination_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management --></label>
+        <name>Transaction_Management_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management --></label>
+        <name>Transaction_Management__c</name>
+        <relationshipLabel><!-- Transaction Management History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Update Reason --></label>
+        <name>Update_Reason__c</name>
+    </fields>
+    <layouts>
+        <layout>Transaction Management History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

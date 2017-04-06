@@ -1,0 +1,583 @@
+<apex:page standardController="case" extensions="BrandHierarchyController" id="pg" sidebar="false" showHeader="false">  
+    <apex:includeScript value="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"/>
+    <apex:stylesheet value="{!$Resource.AutoCompleteCSSmin}"/><!--using static resource-->
+    <apex:stylesheet value="{!$Resource.AutoCompleteThemeCssmin}"/><!--using static resource-->
+    <apex:stylesheet value="https://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css"/>  <!--show Reason list as picklist formate] -->
+    
+    <apex:includeScript value="{!URLFOR($Resource.Issue_Hierarchy_Resource, 'Issue_hierarchy/jQuerymin.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Issue_Hierarchy_Resource, 'Issue_hierarchy/color.js')}"/>   
+    <apex:includeScript value="{!URLFOR($Resource.Issue_Hierarchy_Resource, 'Issue_hierarchy/AutoCompleteJQmin.js')}"/>
+    
+    <apex:includeScript value="https://code.jquery.com/ui/1.11.4/jquery-ui.js" />   
+    <script>
+        window.onload=function () {                       
+            $('.labelFilter').hide(); 
+            $('.labeltaste').hide();
+            $('.labellength').hide();
+            $('.labelpackaging').hide();
+            $('.labelflavor').hide();
+            $('.labelpaperType').hide(); 
+            $('.labelcut').hide(); 
+            if('{!brandHierId}' != null && '{!brandHierId}' != '')
+                callData(3,'upc');           
+        }
+        /* disable filters and UPC when we change Product Line*/
+        function disableOnProductLine(){
+            $('.labelFilter').hide(); 
+            $('.labeltaste').hide();
+            $('.labellength').hide();
+            $('.labelpackaging').hide();
+            $('.labelflavor').hide();
+            $('.labelpaperType').hide();  
+            $('.labelcut').hide();
+        }
+        /* Ends Here */
+        /* Enables filters and UPC on once we select the Brand*/
+        function enableOnBrand(){ 
+            $('.labelUPC').show();
+            $('.labelFilter').show(); 
+            $('.labeltaste').show();
+            $('.labellength').show();
+            $('.labelpackaging').show();
+            $('.labelflavor').show();
+            $('.labelpaperType').show();  
+            $('.labelcut').show();
+        }
+        /*  Ends Here */
+        /* If we select the UPC and enter value for UPC then on blur of UPC all filters get disabled */
+        function disableOnUPC(){     
+            $("#filter").prop("disabled", true);
+            $("#taste").prop("disabled", true);
+            $("#length").prop("disabled", true);
+            $("#packaging").prop("disabled", true);
+            $("#flavor").prop("disabled", true);
+            $("#paperType").prop("disabled", true);
+            $("#cut").prop("disabled", true);                 
+        }
+        /* Ends Here */
+        /* if we select values from filter then UPC field will b disabled*/
+        function disableUPC(){                 
+            document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').disabled = true;
+        }
+        /* Ends Here */
+        function enableFields(){
+            $("#filter").prop("disabled", false);
+            $("#taste").prop("disabled", false);
+            $("#length").prop("disabled", false);
+            $("#packaging").prop("disabled", false);
+            $("#flavor").prop("disabled", false);
+            $("#paperType").prop("disabled", false);
+            $("#cut").prop("disabled", false); 
+            document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').disabled = false;
+            document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').value = '';
+        }
+        /* Ends Here */
+        function callAction(e)
+        {          
+            fillBrandHier(e);   
+            callData(2,this);     
+        }
+        function callData(operation,tagId)
+        {   
+            var upc = 0;
+            var brand = 0;
+            var filter = 0;
+            var taste =  0;
+            var length =  0;
+            var packaging =  0;
+            var flavor =  0;
+            var paperType =  0;
+            var cut = 0;
+            var ids = 0;
+            var prod =  document.getElementById('pg:fm1:pBlock:pageSection:productPblock:product').value;
+            brand =  document.getElementById('pg:fm1:pBlock:pageSection:brandPblock:brand').value;
+            if( operation == 1){
+                enableFields();
+                enableOnBrand();
+                if(tagId.id=='filter' || tagId.id=='filterText' || tagId.id=='taste' || tagId.id=='length' || tagId.id=='packaging' || tagId.id=='flavor' || tagId.id=='paperType' || tagId.id == 'cut'){
+                    disableUPC();
+                }
+                upc = 0;
+                filter =  document.getElementById('filter').value;
+                if(filter == null || filter == '')
+                    filter = '0';
+                taste = document.getElementById('taste').value;
+                if(taste == null || taste == '')
+                    taste = '0';
+                length = document.getElementById('length').value;
+                if(length == null || length == '')
+                    length = '0';
+                packaging =  document.getElementById('packaging').value;
+                if(packaging == null || packaging == '')
+                    packaging = '0';
+                flavor =  document.getElementById('flavor').value;
+                if(flavor == null || flavor == '')
+                    flavor = '0';
+                paperType =  document.getElementById('paperType').value;
+                if(paperType == null || paperType == '')
+                    paperType = '0';
+                cut =  document.getElementById('cut').value;
+                if(cut == null || cut == '')
+                    cut = '0';
+            }else if( operation == 4){
+                enableFields();
+                enableOnBrand();
+                disableUPC();
+                upc = 0;
+                filter = 0;
+                taste =  0;
+                length =  0;
+                packaging =  0;
+                flavor =  0;
+                paperType =  0;
+                cut = 0;
+            }else if( operation == 0){                 
+                upc = 0;
+                brand = 0;
+                filter = 0;
+                taste =  0;
+                length =  0;
+                packaging =  0;
+                flavor =  0;
+                paperType =  0;
+                cut = 0;
+                document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').value = '';
+                document.getElementById('pg:fm1:pBlock:pageSection:brandPblock:brand').selectedIndex = "0";           
+            }else if ( operation == 2){
+                upc = document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').value;
+                filter =  0;
+                taste =  0;
+                length =  0;
+                packaging =  0;
+                flavor =  0;
+                paperType =  0;
+                cut = 0;
+                brand = 0;
+            }else if ( operation == 3){
+                upc = 0;
+                filter =  0;
+                taste =  0;
+                length =  0;
+                packaging =  0;
+                flavor =  0;
+                paperType =  0;
+                brand =  0;
+                cut = 0;
+                ids ='{!brandHierId}';
+            }
+            if( operation != 0){
+                /* Population of Filter values */
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.BrandHierarchyController.brandHierDataList}',
+                    ids,prod,brand,filter,taste,length,packaging,flavor,paperType,upc,cut,
+                    function(result, event){                    
+                        if (event.status){            
+                            $('#filter').find('option').remove();
+                            $('#taste').find('option').remove();
+                            $('#length').find('option').remove();
+                            $('#packaging').find('option').remove();
+                            $('#taste').find('option').remove();
+                            $('#flavor').find('option').remove();
+                            $('#paperType').find('option').remove();
+                            $('#cut').find('option').remove();
+                            $('#filter').append('<option value="0" selected="selected">--Select--</option>');
+                            $('#taste').append('<option value="0" selected="selected">--Select--</option>');
+                            $('#length').append('<option value="0" selected="selected">--Select--</option>');
+                            $('#packaging').append('<option value="0" selected="selected">--Select--</option>');
+                            $('#flavor').append('<option value="0" selected="selected">--Select--</option>');
+                            $('#paperType').append('<option value="0" selected="selected">--Select--</option>');
+                            $('#cut').append('<option value="0" selected="selected">--Select--</option>');     
+                            var UPCList = [];
+                           
+                            for (var a=0;a<result.length; a++){
+                                if(result.length == 1){                       
+                                    document.getElementById( 'pg:fm1:pBlock:pageSection:brandHierId').value = result[a].Id;
+                                    document.getElementById( 'pg:fm1:pBlock:pageSection:brandPblock:brand').value = result[a].Brand_Code__r.Name;
+                                }
+                                var hierarchyId = [];
+                                if(result[a].UPC__c != null && result[a].UPC__c.trim() != '' && UPCList.indexOf(result[a].UPC__c) != 0){
+                                    UPCList.push(result[a].UPC__c);                        
+                                }
+                                var valueFilter = result[a].Filter__c;
+                                if(valueFilter  != null && valueFilter.trim()  != ''){
+                                    var isExist = !!$('#filter option').filter(function() {
+                                        return $(this).attr('value').toLowerCase() === valueFilter.toLowerCase();
+                                    }).length;
+                                    if (!isExist){
+                                       
+                                        $('<option>').val(result[a].Filter__c).text(result[a].Filter__c).appendTo($('#filter'));
+                                    }
+                                }
+                                var valueTaste = result[a].Taste__c;
+                                if(valueTaste  != null && valueTaste.trim()  != ''){
+                                    var isExistTaste = !!$('#taste option').filter(function() {
+                                        return $(this).attr('value').toLowerCase() === valueTaste.toLowerCase();
+                                        }).length;
+                                        if (!isExistTaste){
+                                            $('<option>').val(result[a].Taste__c).text(result[a].Taste__c).appendTo($('#taste'));
+                                        }
+                                    }
+                                    var valueLength = result[a].Length__c;
+                                    if(valueLength != null && valueLength.trim() != ''){
+                                        var isExistLength = !!$('#length option').filter(function() {
+                                            return $(this).attr('value').toLowerCase() === valueLength.toLowerCase();
+                                        }).length;
+                                        
+                                        if (!isExistLength ) {
+                                            $('<option>').val(result[a].Length__c).text(result[a].Length__c).appendTo($('#length'));
+                                        }
+                                     }
+                                    var valuePackaging = result[a].Packaging__c;
+                                    if(valuePackaging != null && valuePackaging.trim() != ''){
+                                       var  isExistPackaging = !!$('#packaging option').filter(function() {
+                                            return $(this).attr('value').toLowerCase() === valuePackaging.toLowerCase();
+                                        }).length;
+                                        
+                                         if (!isExistPackaging ) {
+                                            $('<option>').val(result[a].Packaging__c).text(result[a].Packaging__c).appendTo($('#packaging'));
+                                        }  
+                                    }  
+                                    var valueFlavor = result[a].Flavor__c;
+                                    if(valueFlavor != null && valueFlavor.trim() != ''){
+                                        var isExistFlavor = !!$('#flavor option').filter(function() {
+                                            return $(this).attr('value').toLowerCase() === valueFlavor.toLowerCase();
+                                            }).length;
+                                         if (!isExistFlavor) {
+                                            $('<option>').val(result[a].Flavor__c).text(result[a].Flavor__c).appendTo($('#flavor'));
+                                        }
+                                    }
+                                    var valuePaperType = result[a].PaperType__c;
+                                    if(valuePaperType != null && valuePaperType.trim() != ''){
+                                        var isExistPaperType = !!$('#paperType option').filter(function() {
+                                            return $(this).attr('value').toLowerCase() === valuePaperType.toLowerCase();
+                                            }).length;
+                                        
+                                        if (!isExistPaperType ) {
+                                            $('<option>').val(result[a].PaperType__c).text(result[a].PaperType__c).appendTo($('#paperType'));
+                                        }
+                                    }
+                                    var valueCut = result[a].Cut__c;
+                                    if(valueCut != null && valueCut.trim() != ''){
+                                    var isExistCut = !!$('#cut option').filter(function() {
+                                        return $(this).attr('value').toLowerCase() === valueCut.toLowerCase();
+                                        }).length;
+                            
+                                    if(!isExistCut ) {
+                                        $('<option>').val(result[a].Cut__c).text(result[a].Cut__c).appendTo($('#cut'));
+                                    }
+                                }
+                                if(filter != null && filter != '' && filter != 'null')  
+                                    $('#filter').val(filter);
+                                    
+                                if(taste != null && taste != '' && taste != 'null') 
+                                    $('#taste').val(taste);
+                                    
+                                if(length != null && length != '' && length != 'null')  
+                                    $('#length').val(length);
+                                    
+                                if(packaging != null && packaging != '' && packaging != 'null') 
+                                   $('#packaging').val(packaging);
+                                    
+                                if(flavor != null && flavor != '' && flavor != 'null')  
+                                    $('#flavor').val(flavor);
+                                    
+                                if(paperType != null && paperType != '' && paperType != 'null') 
+                                   $('#paperType').val(paperType);
+                                
+                                if(cut != null && cut != '' && cut != 'null') 
+                                   $('#cut').val(cut);
+                            }
+                            
+                                                        
+                            /* Population of filters ends here*/
+                            /* displaying the default filter values when there is only one values in the filter */   
+                            if(document.getElementById("filter").options.length == 2)
+                                document.getElementById("filter").selectedIndex = "1";                 
+                                   
+                            if(document.getElementById("taste").options.length == 2)
+                                document.getElementById("taste").selectedIndex = "1";
+                                        
+                            if(document.getElementById("length").options.length == 2)
+                                document.getElementById("length").selectedIndex = "1";
+                                        
+                            if(document.getElementById("packaging").options.length == 2)
+                                document.getElementById("packaging").selectedIndex = "1";
+                                        
+                            if(document.getElementById("flavor").options.length == 2)
+                                 document.getElementById("flavor").selectedIndex = "1";
+                                        
+                            if(document.getElementById("paperType").options.length == 2)
+                                document.getElementById("paperType").selectedIndex = "1";
+                            
+                            if(document.getElementById("cut").options.length == 2)
+                               document.getElementById("cut").selectedIndex = "1";
+                            
+                            if((document.getElementById("filter").options.length == 2 ||  document.getElementById("filter").options.length == 1)
+                            && (document.getElementById("taste").options.length == 2 || document.getElementById("taste").options.length == 1)
+                            && (document.getElementById("length").options.length == 2 || document.getElementById("length").options.length == 1)
+                            && (document.getElementById("packaging").options.length == 2 || document.getElementById("packaging").options.length == 1)
+                            && (document.getElementById("flavor").options.length == 2  || document.getElementById("flavor").options.length == 1)
+                            && (document.getElementById("paperType").options.length == 2 || document.getElementById("paperType").options.length == 1)
+                            && (document.getElementById("cut").options.length == 2 || document.getElementById("cut").options.length == 1)){
+                                UPCList.sort();
+                            if(UPCList.length >0)
+                                document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').value = UPCList[0];
+                        }
+                       /* ends here */
+                       
+                       /* below code is to hide filters if there are no values for that particular filter */
+                        if(document.getElementById("filter").options.length == 1){
+                            $('.labelFilter').hide();  
+                        }else{
+                            $('.labelFilter').show();
+                        }
+                            
+                        if(document.getElementById("taste").options.length == 1){
+                            $('.labeltaste').hide();  
+                        }else{
+                            $('.labeltaste').show();
+                        }
+                        
+                        if(document.getElementById("length").options.length == 1){
+                            $('.labellength').hide();  
+                        }else{
+                            $('.labellength').show();
+                        } 
+                        
+                        if(document.getElementById("packaging").options.length == 1){
+                            $('.labelpackaging').hide();  
+                        }else{
+                            $('.labelpackaging').show();
+                        } 
+                        
+                        if(document.getElementById("flavor").options.length == 1){
+                            $('.labelflavor').hide();  
+                        }else{
+                            $('.labelflavor').show();
+                        } 
+                        
+                        if(document.getElementById("paperType").options.length == 1){
+                            $('.labelpaperType').hide();  
+                        }else{
+                            $('.labelpaperType').show();
+                        }
+                        
+                        if(document.getElementById("cut").options.length == 1){
+                            $('.labelcut').hide();  
+                        }else{
+                            $('.labelcut').show();
+                        }
+                        /* Hiding blank filter code ends here */
+                    }else if (event.type === 'exception') {
+                        alert(event.message + "<br/>\n<pre>" + event.where + "</pre>");
+                    }else{
+                       alert(event.message);
+                    }
+                }, 
+                {escape: false}
+            );
+            }else{
+                $('.labelFilter').hide(); 
+                $('.labeltaste').hide();
+                $('.labellength').hide();
+                $('.labelpackaging').hide();
+                $('.labelflavor').hide();
+                $('.labelpaperType').hide(); 
+                $('.labelcut').hide(); 
+                document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').disabled = false;
+                document.getElementById( 'pg:fm1:pBlock:pageSection:brandHierId').value = '';
+            }   
+        }
+        /* hidden field ID for data transfer on click of submit button */
+       
+         function getBrandHierId(ele,brand,filter,taste,length,packaging,flavor,papertype, cut){
+            document.getElementById("pg:fm1:pBlock:pageSection:brandHierId").value = ele;   
+            
+            if(brand != null && brand != '' && document.getElementById('pg:fm1:pBlock:pageSection:brandPblock:brand').value == '0')
+                document.getElementById('pg:fm1:pBlock:pageSection:brandPblock:brand').value = brand;
+                
+            if(filter != null && filter != '' && document.getElementById('filter').value == '0')
+                document.getElementById('filter').value = filter;
+                
+            if(taste != null && taste != '' && document.getElementById('taste').value == '0')
+                document.getElementById('taste').value = taste;
+                
+            if(length != null && length != '' && document.getElementById('length').value == '0')
+                document.getElementById('length').value = length;
+            
+            if(packaging != null && packaging != '' && document.getElementById('packaging').value == '0')
+                document.getElementById('packaging').value = packaging;
+            
+            if(flavor != null && flavor != '' && document.getElementById('flavor').value == '0')
+                document.getElementById('flavor').value = flavor;
+                
+            if(papertype != null && papertype != '' && document.getElementById('paperType').value == '0')
+                document.getElementById('paperType').value = papertype;
+                
+            if(cut != null && cut != '' && document.getElementById('cut').value == '0')
+                document.getElementById('cut').value = cut;        
+        }
+        /* Ends Here */
+    
+        /* On click of submit,All the fields from the selected record will get populated with values and user will get navigated back to the main page of issue. */
+        function submitData(){
+            var d = document.getElementById("pg:fm1:pBlock:pageSection:brandHierId").value;
+            if(d==''){
+                alert('Please select the Brand Hierarchy.');
+            return false;
+            }
+            var winMain=window.opener;
+            if (null==winMain){
+                winMain=window.parent.opener;
+            }       
+            var ele=winMain.document.getElementById('{!$CurrentPage.parameters.idfield}');
+            ele.value=d;
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.upc}');
+           
+            if(document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc') != null)
+                ele.value=document.getElementById('pg:fm1:pBlock:pageSection:upcPblock:upc').value;      
+            else
+                ele.value= 'no upc';
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.brand}');
+            ele.value=document.getElementById('pg:fm1:pBlock:pageSection:brandPblock:brand').value;              
+                 
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.taste}');
+            ele.value=  document.getElementById('taste').value;      
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.filter}');
+            ele.value=document.getElementById('filter').value;      
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.length}');
+            ele.value=document.getElementById('length').value;      
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.packaging}');
+            ele.value=document.getElementById('packaging').value;      
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.flavor}');
+            ele.value=document.getElementById('flavor').value;      
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.paperType}');
+            ele.value=  document.getElementById('paperType').value;      
+           
+            ele=winMain.document.getElementById('{!$CurrentPage.parameters.cut}');
+            ele.value=  document.getElementById("cut").value;      
+            CloseWindow();
+        }
+        /* Ends Here */
+    
+        /* for closing the popup window after populating the field values */
+        function CloseWindow(){
+            var winMain=window.opener;
+            if (null==winMain){
+                winMain=window.parent.opener;
+            }
+            winMain.closeLookupPopup();
+        }    
+        /* Ends Here */
+    
+        function closePopup(){
+            window.top.close();
+        }
+    
+    </script>
+    <!--  below is the code for search form for Brand Hierarchy -->
+    <apex:form id="fm1">
+        <apex:sectionHeader subtitle="Brand Hierarchy"/>
+        <apex:pageBlock id="pBlock">
+            <apex:pageMessages id="pageMessageTag"/>
+            <apex:pageBlockButtons >
+                <p id="refresh" class ="btn" onclick="resetData()">Reset</p>
+                <p id="submit" class ="btn" onclick="submitData();">Submit</p> 
+                <p id="close" class ="btn" onclick="closePopup();">Close</p> 
+            </apex:pageBlockButtons>
+            <apex:actionFunction name="resetData" action="{!reset}" reRender="outPanelBH" oncomplete="callData(0,this);"/>
+            <apex:pageBlockSection columns="1" id="pageSection">
+                <apex:actionFunction name="fillBrandHier" action="{!fillBrandHierarchy}" reRender="outPanelBH,brand,brandPblock,pageMessageTag">
+                    <apex:param name="selectedUPC" assignTo="{!selectedUPC}" value="{!selectedUPC}" />
+                </apex:actionFunction>
+                <apex:actionFunction name="reset"  action="{!reset}" reRender="product,brand,upc,pBlockBH,brandHierId" />
+                    
+                    <apex:pageBlockSectionItem id="productPblock">
+                    <apex:outputLabel value="Product Line"></apex:outputLabel>
+                    <apex:selectList id="product" value="{!selectedProductLine}"  style="width:175px;" size="1">
+                            <apex:selectOptions value="{!productLineList}"/>
+                        <apex:actionSupport event="onchange" reRender="brand,upc,pBlockTableBH,pBlockBH,pageMessageTag" action="{!brandListData}"/>                             
+                    </apex:selectList>
+                    </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem id="upcPblock" dataStyleClass="labelUPC" labelStyleClass="labelUPC">               
+                    <apex:outputLabel value="UPC"></apex:outputLabel>
+                    <apex:inputText id="upc" value="{!upcData}" onblur="callAction(this.value)" onchange="disableOnUPC()" style="width:175px;" />                           
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem id="brandPblock" dataStyleClass="labelBrand" labelStyleClass="labelBrand">
+                    <apex:outputLabel value="Brand"></apex:outputLabel>
+                    <apex:selectList id="brand" value="{!brandData}"  style="width:175px;" size="1" >
+                            <apex:selectOptions value="{!brandList}"/>
+                            <apex:actionSupport event="onchange" reRender="pBlockTableBH,pBlockBH" action="{!brandHierData}" oncomplete="callData(4,this);"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem> 
+          
+                <apex:pageBlockSectionItem dataStyleClass="labelFilter" labelStyleClass="labelFilter"> 
+                    <apex:outputLabel value="Filter"></apex:outputLabel>
+                    <select id="filter" onChange="callData(1,this);" style="width:175px;"></select>
+                  
+                </apex:pageBlockSectionItem>            
+           
+                <apex:pageBlockSectionItem dataStyleClass="labeltaste" labelStyleClass="labeltaste">
+                    <apex:outputLabel value="Taste"></apex:outputLabel>
+                    <select id="taste" onChange="callData(1,this);" style="width:175px;"></select>                   
+                </apex:pageBlockSectionItem>
+           
+                    <apex:pageBlockSectionItem dataStyleClass="labellength" labelStyleClass="labellength">
+                    <apex:outputLabel value="Length"></apex:outputLabel>
+                    <select id="length" onChange="callData(1,this);" style="width:175px;"></select>
+                </apex:pageBlockSectionItem>            
+           
+                    <apex:pageBlockSectionItem dataStyleClass="labelpackaging" labelStyleClass="labelpackaging">
+                    <apex:outputLabel value="Packaging"></apex:outputLabel>
+                    <select id="packaging" onChange="callData(1,this);" style="width:175px;"></select>
+                </apex:pageBlockSectionItem>            
+           
+                    <apex:pageBlockSectionItem dataStyleClass="labelflavor" labelStyleClass="labelflavor">
+                    <apex:outputLabel value="Flavor"></apex:outputLabel>
+                    <select id="flavor" onChange="callData(1,this);" style="width:175px;"></select>
+                </apex:pageBlockSectionItem>            
+           
+                    <apex:pageBlockSectionItem dataStyleClass="labelpaperType" labelStyleClass="labelpaperType">
+                        <apex:outputLabel value="Paper Type"></apex:outputLabel>
+                        <select id="paperType" onChange="callData(1,this);" style="width:175px;"></select>
+                    </apex:pageBlockSectionItem>
+            
+                    <apex:pageBlockSectionItem dataStyleClass="labelcut" labelStyleClass="labelcut">
+                        <apex:outputLabel value="Cut"></apex:outputLabel>
+                        <select id="cut" onChange="callData(1,this);" style="width:175px;"></select>
+                    </apex:pageBlockSectionItem>
+                <apex:inputHidden id="brandHierId" value="{!brandHierid}"/>             
+            </apex:pageBlockSection>    
+        </apex:pageBlock>
+  
+        <!-- Seach Form for brand Hierarchy Ends Here -->
+        <!-- The below code is used for displaying records returned from the search made on UPC or filters -->
+        <apex:outputPanel id="outPanelBH"> 
+            <apex:pageBlock id="pBlockBH" mode="edit" rendered="{!If(brandHierarchyList.size >0,true,false)}">
+                <apex:pageBlockTable id="pBlockTableBH" value="{!brandHierarchyList}" var="b" rendered="{!showTable}"  >
+                    <apex:column >
+                        <input type="radio" name="chosen" id="{!b.id}" VALUE="{!b.id}" onclick="getBrandHierId(this.id,'{!b.Brand_Code__r.Name}','{!b.Filter__c}','{!b.Taste__c}','{!b.Length__c}','{!b.Packaging__c}','{!b.Flavor__c}','{!b.PaperType__c}','{!b.Cut__c}' );"/>
+                    </apex:column>    
+                    <apex:column value="{!b.Brand_Code__r.Name}"/>
+                    <apex:column value="{!b.Filter__c}" />
+                    <apex:column value="{!b.Taste__c}" />
+                    <apex:column value="{!b.Length__c}" />
+                    <apex:column value="{!b.Packaging__c}" />
+                    <apex:column value="{!b.Flavor__c}" />
+                    <apex:column value="{!b.PaperType__c}" />
+                    <apex:column value="{!b.Cut__c}" />
+                </apex:pageBlockTable>
+            </apex:pageBlock>
+        </apex:outputPanel> 
+        <!-- Page Block Table Ends here -->
+    </apex:form>
+</apex:page>

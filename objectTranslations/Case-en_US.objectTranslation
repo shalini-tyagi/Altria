@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Issue</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Issues</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Access</value>
+        </caseValues>
+        <name>case_access</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Access Level</value>
+        </caseValues>
+        <name>case_access_level</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Account</value>
+        </caseValues>
+        <name>case_account</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Alert</value>
+        </caseValues>
+        <name>case_alert</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Article</value>
+        </caseValues>
+        <name>case_article</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Article ID</value>
+        </caseValues>
+        <name>case_article_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Asset</value>
+        </caseValues>
+        <name>case_asset</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Assignment Rule</value>
+        </caseValues>
+        <name>case_assignment_rule</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Capture</value>
+        </caseValues>
+        <name>case_capture</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Capture Information</value>
+        </caseValues>
+        <name>case_capture_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Capture Page</value>
+        </caseValues>
+        <name>case_capture_page</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Close</value>
+        </caseValues>
+        <name>case_close</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Closed</value>
+        </caseValues>
+        <name>case_closed</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Closure</value>
+        </caseValues>
+        <name>case_closure</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Comment</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Comments</value>
+        </caseValues>
+        <name>case_comment</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Comment ID</value>
+        </caseValues>
+        <name>case_comment_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Comment Information</value>
+        </caseValues>
+        <name>case_comment_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Company</value>
+        </caseValues>
+        <name>case_company</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Contact</value>
+        </caseValues>
+        <name>case_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Contact Role</value>
+        </caseValues>
+        <name>case_contact_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Created Date</value>
+        </caseValues>
+        <name>case_created_date</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Creator</value>
+        </caseValues>
+        <name>case_creator</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Currency</value>
+        </caseValues>
+        <name>case_currency</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Custom Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Custom Fields</value>
+        </caseValues>
+        <name>case_custom_field</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Description</value>
+        </caseValues>
+        <name>case_description</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Detail</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Details</value>
+        </caseValues>
+        <name>case_detail</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Detail Link</value>
+        </caseValues>
+        <name>case_detail_link</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Division</value>
+        </caseValues>
+        <name>case_division</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Edit</value>
+        </caseValues>
+        <name>case_edit</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Email</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Emails</value>
+        </caseValues>
+        <name>case_email</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Feed</value>
+        </caseValues>
+        <name>case_feed</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Field</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Fields</value>
+        </caseValues>
+        <name>case_field</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue History</value>
+        </caseValues>
+        <name>case_history</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue History ID</value>
+        </caseValues>
+        <name>case_history_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue History Info</value>
+        </caseValues>
+        <name>case_history_info</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue History Owner</value>
+        </caseValues>
+        <name>case_history_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue History Report</value>
+        </caseValues>
+        <name>case_history_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue History Status</value>
+        </caseValues>
+        <name>case_history_status</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue ID</value>
+        </caseValues>
+        <name>case_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Information</value>
+        </caseValues>
+        <name>case_information</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Last Modified</value>
+        </caseValues>
+        <name>case_last_modified</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Lifecycle</value>
+        </caseValues>
+        <name>case_lifecycle</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Lifecycle Report</value>
+        </caseValues>
+        <name>case_lifecycle_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue List</value>
+        </caseValues>
+        <name>case_list</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Milestone</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Milestones</value>
+        </caseValues>
+        <name>case_milestone</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Name</value>
+        </caseValues>
+        <name>case_name</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Number</value>
+        </caseValues>
+        <name>case_number</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Origin</value>
+        </caseValues>
+        <name>case_origin</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Owner</value>
+        </caseValues>
+        <name>case_owner</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Owner Alias</value>
+        </caseValues>
+        <name>case_owner_alias</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Owner Role</value>
+        </caseValues>
+        <name>case_owner_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Phone</value>
+        </caseValues>
+        <name>case_phone</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Picklist</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Picklists</value>
+        </caseValues>
+        <name>case_picklist</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Priority</value>
+        </caseValues>
+        <name>case_priority</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Queue</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Queues</value>
+        </caseValues>
+        <name>case_queue</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Reason</value>
+        </caseValues>
+        <name>case_reason</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Record Type</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Record Types</value>
+        </caseValues>
+        <name>case_record_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Record Type ID</value>
+        </caseValues>
+        <name>case_record_type_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Reports</value>
+        </caseValues>
+        <name>case_report</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Solution</value>
+        </caseValues>
+        <name>case_solution</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Solution ID</value>
+        </caseValues>
+        <name>case_solution_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Splash Page</value>
+        </caseValues>
+        <name>case_splash_page</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Stage ID</value>
+        </caseValues>
+        <name>case_stage_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Status</value>
+        </caseValues>
+        <name>case_status</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Subject</value>
+        </caseValues>
+        <name>case_subject</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Teams</value>
+        </caseValues>
+        <name>case_team</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Team Member</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Team Members</value>
+        </caseValues>
+        <name>case_team_member</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Team Member Role</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Team Member Roles</value>
+        </caseValues>
+        <name>case_team_member_role</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Team Record</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Team Records</value>
+        </caseValues>
+        <name>case_team_record</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Type</value>
+        </caseValues>
+        <name>case_type</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue View</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Views</value>
+        </caseValues>
+        <name>case_view</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issues Detail Page</value>
+        </caseValues>
+        <name>cases_detail_page</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issues Tab</value>
+        </caseValues>
+        <name>cases_tab</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Related Issue</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Related Issues</value>
+        </caseValues>
+        <name>child_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Issue Note</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Issue Notes</value>
+        </caseValues>
+        <name>feed_filter_case_note</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Issue</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Parent Issues</value>
+        </caseValues>
+        <name>parent_case</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Issue ID</value>
+        </caseValues>
+        <name>parent_case_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Write Issue Note</value>
+        </caseValues>
+        <name>publisher_private_answer</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>View Issue Details</value>
+        </caseValues>
+        <name>publisher_view_details</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Action Type --></label>
+        <name>Action_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Code --></label>
+        <name>Adjustment_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Instructions --></label>
+        <name>Adjustment_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>Adjustment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Affected Qty --></label>
+        <name>AffectedQty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Affected Type --></label>
+        <name>Affected_Type__c</name>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigar</masterLabel>
+            <translation><!-- Cigar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigarette</masterLabel>
+            <translation><!-- Cigarette --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disc</masterLabel>
+            <translation><!-- Disc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pack</masterLabel>
+            <translation><!-- Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pouch</masterLabel>
+            <translation><!-- Pouch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotional packing</masterLabel>
+            <translation><!-- Promotional packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll</masterLabel>
+            <translation><!-- Roll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snus Carton</masterLabel>
+            <translation><!-- Snus Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snus Pack</masterLabel>
+            <translation><!-- Snus Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tube</masterLabel>
+            <translation><!-- Tube --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BrandID --></label>
+        <name>BrandID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Hierarchy Code --></label>
+        <name>Brand_Hierarchy_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>Brandcode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Keywords --></label>
+        <name>Call_Keywords__c</name>
+        <picklistValues>
+            <masterLabel>Fainted</masterLabel>
+            <translation><!-- Fainted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passed Out</masterLabel>
+            <translation><!-- Passed Out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stopped Breathing</masterLabel>
+            <translation><!-- Stopped Breathing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Caller Name --></label>
+        <name>Caller_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- CauseCode --></label>
+        <name>CauseCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause --></label>
+        <name>Cause__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cause --></label>
+        <name>Causetxt__c</name>
+    </fields>
+    <fields>
+        <label><!-- ClassificationCode --></label>
+        <name>ClassificationCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classificationtxt__c</name>
+    </fields>
+    <fields>
+        <label><!-- CodeCategory --></label>
+        <name>CodeCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Type --></label>
+        <name>Code_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Return Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Age Verified --></label>
+        <name>Consumer_Age_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Mentions --></label>
+        <name>Consumer_Mentions__c</name>
+        <picklistValues>
+            <masterLabel>Contacting Attorney</masterLabel>
+            <translation><!-- Contacting Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacting Better Business Bureau</masterLabel>
+            <translation><!-- Contacting Better Business Bureau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacting FDA</masterLabel>
+            <translation><!-- Contacting FDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacting Government Agency</masterLabel>
+            <translation><!-- Contacting Government Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switching to a competitor</masterLabel>
+            <translation><!-- Switching to a competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Threatens quitting</masterLabel>
+            <translation><!-- Threatens quitting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consumer Return --></label>
+        <name>Consumer_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContactChannel --></label>
+        <name>ContactChannel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Type --></label>
+        <name>ContactType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Apt Lot --></label>
+        <name>Contact_Apt_Lot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact CCN  Number --></label>
+        <name>Contact_CCN_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact City --></label>
+        <name>Contact_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Country --></label>
+        <name>Contact_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact DOB --></label>
+        <name>Contact_DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact State --></label>
+        <name>Contact_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Street Address --></label>
+        <name>Contact_Street_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Zip Code --></label>
+        <name>Contact_Zip_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crc Brand Hierarchy Code --></label>
+        <name>Crc_Brand_Hierarchy_Code__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer ID --></label>
+        <name>CustomerID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cut --></label>
+        <name>Cut__c</name>
+    </fields>
+    <fields>
+        <label><!-- DNUA Date --></label>
+        <name>DNUA_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Cold Storage --></label>
+        <name>DateCodeColdStorage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Location --></label>
+        <name>DateCodeLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Military Time --></label>
+        <name>DateCodeMilitaryTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Production Date --></label>
+        <name>DateCodeProductionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Rpt Bay --></label>
+        <name>DateCodeRptBay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Rpt Factory --></label>
+        <name>DateCodeRptFactory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Shift --></label>
+        <name>DateCodeShift__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code Unit --></label>
+        <name>DateCodeUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Code --></label>
+        <name>Date_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Type --></label>
+        <name>Date_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Alert Id --></label>
+        <name>EmailAlertId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExpReturnTotalCost --></label>
+        <name>ExpReturnTotalCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exp. Date --></label>
+        <name>Exp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Qty --></label>
+        <name>ExpectedQty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Type --></label>
+        <name>Expected_Type__c</name>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigar</masterLabel>
+            <translation><!-- Cigar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigarette</masterLabel>
+            <translation><!-- Cigarette --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disc</masterLabel>
+            <translation><!-- Disc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pack</masterLabel>
+            <translation><!-- Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pouch</masterLabel>
+            <translation><!-- Pouch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotional packing</masterLabel>
+            <translation><!-- Promotional packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll</masterLabel>
+            <translation><!-- Roll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snus Carton</masterLabel>
+            <translation><!-- Snus Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snus Pack</masterLabel>
+            <translation><!-- Snus Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tube</masterLabel>
+            <translation><!-- Tube --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Filter --></label>
+        <name>Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flavor --></label>
+        <name>Flavor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Force --></label>
+        <name>Force__c</name>
+    </fields>
+    <fields>
+        <label><!-- GroupCodeID --></label>
+        <name>GroupCodeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Code --></label>
+        <name>Group_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbound Tracking # --></label>
+        <name>Inbound_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Incident Date --></label>
+        <name>Incident_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inventory Depleted --></label>
+        <name>Inventory_Depleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsReviewed --></label>
+        <name>IsReviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- IssueHierarchyCode --></label>
+        <name>IssueHierarchyCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- IssueURL --></label>
+        <name>IssueURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Date --></label>
+        <name>Issue_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Hierarchy Code --></label>
+        <name>Issue_Hierarchy_Code__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Issue Hierarchy Name --></label>
+        <name>Issue_Hierarchy_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Type --></label>
+        <name>Issue_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- LastModifiedDate --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Length Code --></label>
+        <name>Length_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Machine Code --></label>
+        <name>Machine_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Major Symptom --></label>
+        <name>Major_Symptom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mfg/Trace code --></label>
+        <name>Mfg_Trace_code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operating Company --></label>
+        <name>Operating_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Tracking # --></label>
+        <name>Outbound_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overage --></label>
+        <name>Overage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Code --></label>
+        <name>PLCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Packaging --></label>
+        <name>Packaging__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paper Type --></label>
+        <name>Paper_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pick Up Policy Weeks --></label>
+        <name>Pick_Up_Policy_Weeks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Crc Issue Detail Id --></label>
+        <name>Primary_Crc_Issue_Detail_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProdrReturnReq. --></label>
+        <name>ProdrReturnReq__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductCode2 --></label>
+        <name>ProductCode2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductCode --></label>
+        <name>ProductCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Code --></label>
+        <name>Product_Line_Code__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProductionDate --></label>
+        <name>ProductionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Date Type --></label>
+        <name>Production_Date_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production date --></label>
+        <name>Production_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProgramCode --></label>
+        <name>ProgramCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Qty --></label>
+        <name>PurchaseQty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Date --></label>
+        <name>Purchase_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Price --></label>
+        <name>Purchase_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Type --></label>
+        <name>Purchase_Type__c</name>
+        <picklistValues>
+            <masterLabel>Can</masterLabel>
+            <translation><!-- Can --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carton</masterLabel>
+            <translation><!-- Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case</masterLabel>
+            <translation><!-- Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigar</masterLabel>
+            <translation><!-- Cigar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cigarette</masterLabel>
+            <translation><!-- Cigarette --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disc</masterLabel>
+            <translation><!-- Disc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pack</masterLabel>
+            <translation><!-- Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pouch</masterLabel>
+            <translation><!-- Pouch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotional packing</masterLabel>
+            <translation><!-- Promotional packing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roll</masterLabel>
+            <translation><!-- Roll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snus Carton</masterLabel>
+            <translation><!-- Snus Carton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snus Pack</masterLabel>
+            <translation><!-- Snus Pack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tube</masterLabel>
+            <translation><!-- Tube --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ReasonCode --></label>
+        <name>ReasonCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+        <relationshipLabel><!-- Issues --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reasontxt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reimbursement --></label>
+        <name>Reimbchk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reimbursed Flag --></label>
+        <name>Reimbursed_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reimbursement Count --></label>
+        <name>Reimbursement_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Issue --></label>
+        <name>Related_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Return Notes --></label>
+        <name>Reship_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sell by Date --></label>
+        <name>Sell_by_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SizeCode --></label>
+        <name>SizeCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- SpUstDateCode --></label>
+        <name>SpUstDateCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- StickerInfo --></label>
+        <name>StickerInfo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Name --></label>
+        <name>Supplier_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SurveyHiddenReason --></label>
+        <name>SurveyHiddenReason__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminate</masterLabel>
+            <translation><!-- Terminate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Survey Cancel Comments --></label>
+        <name>Survey_Cancel_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Cancel Reason --></label>
+        <name>Survey_Cancel_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Customer Busy</masterLabel>
+            <translation><!-- Customer Busy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Declined</masterLabel>
+            <translation><!-- Customer Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Don&apos;t have Time</masterLabel>
+            <translation><!-- Don&apos;t have Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not interested</masterLabel>
+            <translation><!-- Not interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Reason</masterLabel>
+            <translation><!-- Other Reason --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Takes Too Long</masterLabel>
+            <translation><!-- Takes Too Long --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>Survey__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete</masterLabel>
+            <translation><!-- Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required</masterLabel>
+            <translation><!-- Required --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Suspected Counterfeit --></label>
+        <name>Suspected_Counterfiet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Suspected Tampering --></label>
+        <name>Suspected_Tampering__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taste --></label>
+        <name>Taste__c</name>
+    </fields>
+    <fields>
+        <label><!-- TenantId --></label>
+        <name>TenantId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Contacted --></label>
+        <name>ThirdPartyContacted__c</name>
+    </fields>
+    <fields>
+        <label><!-- TraceCodeLocation --></label>
+        <name>TraceCodeLocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trace Code Location --></label>
+        <name>Trace_Code_Location__c</name>
+        <picklistValues>
+            <masterLabel>CAN</masterLabel>
+            <translation><!-- CAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAR</masterLabel>
+            <translation><!-- CAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAS</masterLabel>
+            <translation><!-- CAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KIT</masterLabel>
+            <translation><!-- KIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAC</masterLabel>
+            <translation><!-- PAC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Transacation Id --></label>
+        <name>Transacation_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management History --></label>
+        <name>Transaction_Management_History__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction Master --></label>
+        <name>Transaction_Master__c</name>
+        <relationshipLabel><!-- Cases (Transaction Management) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction --></label>
+        <name>Transaction__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- UPC code --></label>
+        <name>UPC_code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Reason --></label>
+        <name>Update_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidTraceCode --></label>
+        <name>ValidTraceCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ValidUstdateCode --></label>
+        <name>ValidUstdateCode__c</name>
+    </fields>
+    <layouts>
+        <layout>Case Feed Layout</layout>
+        <layoutType>CaseInteraction</layoutType>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Incident date cannot be earlier than Purchase date --></errorMessage>
+        <name>Incident_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Incident Date cannot be a Future Date. Enter a valid Date. --></errorMessage>
+        <name>No_future_date_Incident</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Purchase Date cannot be a Future Date. Enter a valid Date. --></errorMessage>
+        <name>No_future_date_purchase</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Purchase price is required except when Issue Type is “Not a Complaint”. Zero is a valid purchase price. --></errorMessage>
+        <name>Purchase_price</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Related Issue: Please enter valid Related Issue Number. --></errorMessage>
+        <name>Related_Issue_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Clone1 --></label>
+        <name>Clone1</name>
+    </webLinks>
+</CustomObjectTranslation>

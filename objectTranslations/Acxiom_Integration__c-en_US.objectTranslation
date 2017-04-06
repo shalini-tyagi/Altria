@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Acxiom Integration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Acxiom Integration</value>
+    </caseValues>
+    <fields>
+        <label><!-- Access-type-cd --></label>
+        <name>Access_type_cd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel-type-cd --></label>
+        <name>Channel_type_cd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client_Id --></label>
+        <name>Client_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Secret --></label>
+        <name>Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- EndPointURL --></label>
+        <name>EndPointURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host --></label>
+        <name>Host__c</name>
+    </fields>
+    <fields>
+        <label><!-- RequestTimeOut --></label>
+        <name>RequestTimeOut__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor-cd --></label>
+        <name>Vendor_cd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website-Id --></label>
+        <name>Website_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

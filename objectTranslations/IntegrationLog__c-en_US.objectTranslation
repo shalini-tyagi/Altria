@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Integration Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Integration Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Callout --></label>
+        <name>Callout__c</name>
+        <picklistValues>
+            <masterLabel>Address Verification</masterLabel>
+            <translation><!-- Address Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Age Verification</masterLabel>
+            <translation><!-- Age Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCN Lookup</masterLabel>
+            <translation><!-- CCN Lookup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Search Lookup</masterLabel>
+            <translation><!-- Full Search Lookup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profile Update</masterLabel>
+            <translation><!-- Profile Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Token</masterLabel>
+            <translation><!-- Token --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zip Lookup</masterLabel>
+            <translation><!-- Zip Lookup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CustomerId --></label>
+        <name>CustomerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- FormName --></label>
+        <name>FormName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message/Exception --></label>
+        <name>Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request --></label>
+        <name>Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response --></label>
+        <name>Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success --></label>
+        <name>Success__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Management --></label>
+        <name>Transaction_Management__c</name>
+        <relationshipLabel><!-- Integration Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Acxiom</masterLabel>
+            <translation><!-- Acxiom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lexis-Nexis</masterLabel>
+            <translation><!-- Lexis-Nexis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melissa</masterLabel>
+            <translation><!-- Melissa --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

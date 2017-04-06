@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Issue Hierarchy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Issue Hierarchies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alcs Investigation Level --></label>
+        <name>Alcs_Investigation_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert Distribution --></label>
+        <name>Alert_Distribution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Archival Date --></label>
+        <name>Archival_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CauseDisplayOrder --></label>
+        <name>CauseDisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- CauseId --></label>
+        <name>CauseId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Code --></label>
+        <name>Cause_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Identifier --></label>
+        <name>Cause_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause Name --></label>
+        <name>Cause_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cause --></label>
+        <name>Cause__c</name>
+        <relationshipLabel><!-- Issue Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Classification Display Order --></label>
+        <name>ClassificationDisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification Code --></label>
+        <name>Classification_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification Des --></label>
+        <name>Classification_Des__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+        <relationshipLabel><!-- Issue Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CodeCategory --></label>
+        <name>CodeCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code Type --></label>
+        <name>CodeType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustConsFlag --></label>
+        <name>Cust_Cons_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- EscalateFlag --></label>
+        <name>Escalate_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Factory Controllable Flag --></label>
+        <name>Factory_Controllable_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- GroupDisplayOrder --></label>
+        <name>GroupDisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Code --></label>
+        <name>Group_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Desc --></label>
+        <name>Group_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <relationshipLabel><!-- Issue Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Identifier --></label>
+        <name>Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- IssueTypeDisplayOrder --></label>
+        <name>IssueTypeDisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Association --></label>
+        <name>Issue_Association__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Rollup --></label>
+        <name>Issue_Rollup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Type Code --></label>
+        <name>Issue_Type_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Type Name --></label>
+        <name>Issue_Type_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Type --></label>
+        <name>Issue_Type__c</name>
+        <relationshipLabel><!-- Issue Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date --></label>
+        <name>LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manf Investigation Level --></label>
+        <name>Manf_Investigation_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pqrb Rtp Category --></label>
+        <name>Pqrb_Rtp_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Display Order --></label>
+        <name>ProductLineDisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Code --></label>
+        <name>Product_Line_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Name --></label>
+        <name>Product_Line_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+        <relationshipLabel><!-- Issue Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Return Level --></label>
+        <name>Product_Return_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReasonDisplayOrder --></label>
+        <name>ReasonDisplayOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Code --></label>
+        <name>Reason_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Identifier --></label>
+        <name>Reason_Identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason Name --></label>
+        <name>Reason_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+        <relationshipLabel><!-- Issue Hierarchies --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RptCategory --></label>
+        <name>RptCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Select --></label>
+        <name>Select__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Requirements --></label>
+        <name>Survey_Requirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- TenantId --></label>
+        <name>TenantId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text Product Line --></label>
+        <name>Text_Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threshold With Manf Info --></label>
+        <name>Threshold_With_Manf_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threshold With Prod Desc Only --></label>
+        <name>Threshold_With_Prod_Desc_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visible --></label>
+        <name>Visible__c</name>
+    </fields>
+    <layouts>
+        <layout>Issue Hierarchy Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
